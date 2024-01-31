@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1032366066, guid: 356bd2145580d2f4f917c760a53e9e8d, type: 3}
+  m_Name: ExampleFolderButton
+  m_EditorClassIdentifier: 
+  Name: 
+  Label: Example Folder
+  LabelLocalisedID: 
+  Icon: {fileID: 21300000, guid: 88aae46356b15a248b53c5a330564ca8, type: 3}
+  HostOnly: 0
+  FvrDebugOnly: 1
+  ClassesValidated: 1
+  ClassesToAdd: []
+  PressType: 0
+  ActiveByDefault: 0
+  ActiveLabel: 
+  ActiveLabelLocalisedID: 
+  ActiveIcon: {fileID: 0}
+  ActiveColor: {r: 1, g: 1, b: 1, a: 1}
+  InactiveColor: {r: 1, g: 1, b: 1, a: 1}
+  DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+  PlatformDependent: 0
+  ShowButtonOn: 
+  HideButtonOn: 
+  ButtonsInFolder:
+  - {fileID: 11400000, guid: 45e9344a0719d8c479488047b463b6bd, type: 2}
+  - {fileID: 11400000, guid: c07086db27a339c45bd4ddc2f1c2c56e, type: 2}
+  - {fileID: 11400000, guid: 4eacd4deb90eea64aad981c483868322, type: 2}
+  - {fileID: 11400000, guid: e4ac2b7611d44b049a54f7268708df70, type: 2}
+  - {fileID: 11400000, guid: e4ac2b7611d44b049a54f7268708df70, type: 2}
+  - {fileID: 11400000, guid: e4ac2b7611d44b049a54f7268708df70, type: 2}
+  - {fileID: 11400000, guid: e4ac2b7611d44b049a54f7268708df70, type: 2}
+  - {fileID: 11400000, guid: 24aec94f50f147d47a038ab456f6e798, type: 2}
+  PanelTint: {r: 0.9411765, g: 0, b: 0.2784314, a: 1}
+  FolderName: Example Folder
+  FolderNameLocalisedID: 
+  FolderDescription: 
+  FolderDescriptionLocalisedID: 
+  FolderPanelID: 

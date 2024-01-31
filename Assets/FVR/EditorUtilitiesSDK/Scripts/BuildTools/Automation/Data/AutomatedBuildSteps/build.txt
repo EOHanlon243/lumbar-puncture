@@ -1,0 +1,5 @@
+- name: Build
+  if: env.REPO_ALIVE == 1
+  run: |
+    "/c/Program Files/Unity/Hub/Editor/${{ matrix.unityVersion }}/Editor/Unity.exe" -quit -batchmode -projectPath "/c/actions-runner/_work/${{ matrix.repoName }}/${{ matrix.repoName }}/${{ matrix.workFolder }}/${{ matrix.unityProjectPath }}" -buildpath "/c/actions-runner/_work/${{ matrix.repoName }}/${{ matrix.repoName }}/${{ matrix.workFolder }}/Build" -buildTarget ${{ matrix.targetPlatform }} -executeMethod ${{ matrix.buildMethod }} -logfile "/c/actions-runner/_work/${{ matrix.repoName }}/${{ matrix.repoName }}/${{ matrix.workFolder }}/build.log" -buildConfiguration "${{ matrix.buildConfiguration }}"
+  shell: bash

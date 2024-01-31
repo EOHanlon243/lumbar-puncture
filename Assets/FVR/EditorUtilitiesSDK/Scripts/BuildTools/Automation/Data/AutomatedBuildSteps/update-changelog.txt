@@ -1,0 +1,5 @@
+- name: Update ChangeLog
+  if: env.REPO_ALIVE == 1
+  run: |
+    echo ${{ env.TIME_STAMP }} > C:\Data\LastBuilds\${{ matrix.projectName }}.txt
+    copy C:\Data\Upload\changelog.txt C:\Data\ChangeLogs\${{ matrix.projectName }}.txt

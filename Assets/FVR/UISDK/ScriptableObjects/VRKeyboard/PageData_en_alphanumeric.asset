@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1604621265, guid: 356bd2145580d2f4f917c760a53e9e8d, type: 3}
+  m_Name: PageData_en_alphanumeric
+  m_EditorClassIdentifier: 
+  m_Type: 0
+  m_KeyboardLayout:
+  - m_Keys:
+    - m_DisplayValue: 1
+      m_InputValue: 1
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 2
+      m_InputValue: 2
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 3
+      m_InputValue: 3
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 4
+      m_InputValue: 4
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 5
+      m_InputValue: 5
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 6
+      m_InputValue: 6
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 7
+      m_InputValue: 7
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 8
+      m_InputValue: 8
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 9
+      m_InputValue: 9
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: 0
+      m_InputValue: 0
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 2
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+  - m_Keys:
+    - m_DisplayValue: q
+      m_InputValue: q
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: Q
+      m_UpperInputValue: Q
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: w
+      m_InputValue: w
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: W
+      m_UpperInputValue: W
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: e
+      m_InputValue: e
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: E
+      m_UpperInputValue: E
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: r
+      m_InputValue: r
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: R
+      m_UpperInputValue: R
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: t
+      m_InputValue: t
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: T
+      m_UpperInputValue: T
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: y
+      m_InputValue: y
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: Y
+      m_UpperInputValue: Y
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: u
+      m_InputValue: u
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: U
+      m_UpperInputValue: U
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: i
+      m_InputValue: i
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: I
+      m_UpperInputValue: I
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: o
+      m_InputValue: o
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: O
+      m_UpperInputValue: O
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: p
+      m_InputValue: p
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: P
+      m_UpperInputValue: P
+      m_UpperDisplayIcon: {fileID: 0}
+  - m_Keys:
+    - m_DisplayValue: tab
+      m_InputValue: tab
+      m_DisplayIcon: {fileID: 21300000, guid: 8dc0f0689d737804d937e63fd966a2e5, type: 3}
+      m_Type: 128
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: a
+      m_InputValue: a
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: A
+      m_UpperInputValue: A
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: s
+      m_InputValue: s
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: S
+      m_UpperInputValue: S
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: d
+      m_InputValue: d
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: D
+      m_UpperInputValue: D
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: f
+      m_InputValue: f
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: F
+      m_UpperInputValue: F
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: g
+      m_InputValue: g
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: G
+      m_UpperInputValue: G
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: h
+      m_InputValue: h
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: H
+      m_UpperInputValue: H
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: j
+      m_InputValue: j
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: J
+      m_UpperInputValue: J
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: k
+      m_InputValue: k
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: K
+      m_UpperInputValue: K
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: l
+      m_InputValue: l
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: L
+      m_UpperInputValue: L
+      m_UpperDisplayIcon: {fileID: 0}
+  - m_Keys:
+    - m_DisplayValue: shift
+      m_InputValue: shift
+      m_DisplayIcon: {fileID: 21300000, guid: 00e29d1644f4f5f4285e0a348fc0ad43, type: 3}
+      m_Type: 32
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: z
+      m_InputValue: z
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: Z
+      m_UpperInputValue: Z
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: x
+      m_InputValue: x
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: X
+      m_UpperInputValue: X
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: c
+      m_InputValue: c
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: C
+      m_UpperInputValue: C
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: v
+      m_InputValue: v
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: V
+      m_UpperInputValue: V
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: b
+      m_InputValue: b
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: B
+      m_UpperInputValue: B
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: n
+      m_InputValue: n
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: N
+      m_UpperInputValue: N
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: m
+      m_InputValue: m
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 1
+      m_UpperDisplayValue: M
+      m_UpperInputValue: M
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: '@'
+      m_InputValue: '@'
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 4
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: backspace
+      m_InputValue: backspace
+      m_DisplayIcon: {fileID: 21300000, guid: da941285cafcbdd4db77670b8f0dedf6, type: 3}
+      m_Type: 16
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+  - m_Keys:
+    - m_DisplayValue: '#+='
+      m_InputValue: Symbols
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 256
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: .com
+      m_InputValue: .com
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 4
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: spacebar
+      m_InputValue: ' '
+      m_DisplayIcon: {fileID: 21300000, guid: 0463695fa68702f41a8cb0fc67881886, type: 3}
+      m_Type: 8
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: .
+      m_InputValue: .
+      m_DisplayIcon: {fileID: 0}
+      m_Type: 4
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}
+    - m_DisplayValue: enter
+      m_InputValue: enter
+      m_DisplayIcon: {fileID: 21300000, guid: 275095c222340864099625e49df18f3e, type: 3}
+      m_Type: 64
+      m_UpperDisplayValue: 
+      m_UpperInputValue: 
+      m_UpperDisplayIcon: {fileID: 0}

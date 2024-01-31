@@ -1,0 +1,9 @@
+- name: Create changelog
+  if: env.REPO_ALIVE == 1
+  run: |
+    touch /c/Data/ChangeLogs/${{ matrix.projectName }}.txt
+    cd /c/Data/Tools
+    curl.exe -H "Authorization: token ${{ secrets.FVR_CI }}" "https://api.github.com/repos/funvr/${{ matrix.repoName }}/pulls?base=${{ matrix.branchName }}&state=closed" > pulls.json
+    ./create-changelog.exe -input pulls.json -output ./changelog.txt -lastbuild /c/Data/LastBuilds/${{ matrix.projectName }}.txt
+    cat ./changelog.txt "/c/Data/ChangeLogs/${{ matrix.projectName }}.txt" > /c/Data/Upload/changelog.txt
+  shell: bash

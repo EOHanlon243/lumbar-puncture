@@ -1,0 +1,17 @@
+{
+    "name": "Fvr.SDK.Samples.Editor",
+    "references": [
+        "GUID:5c429638abc0d9d4fbe29fadd2a56e64"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

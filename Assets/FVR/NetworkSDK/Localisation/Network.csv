@@ -1,0 +1,11 @@
+"STRING_ID","EN_US"
+NOTIFICATION_SESSION_STARTED,"Session started"
+NOTIFICATION_USER_JOINED,"{0} has entered the room"
+NOTIFICATION_USER_LEFT,"{0} has left the room"
+NOTIFICATION_MUTED_BY_HOST,You have been muted by the host.
+NOTIFICATION_MUTED_BY_PLAYER,You have been muted by {0}.
+NOTIFICATION_MUTED,You have been muted.
+NOTIFICATION_CONNECTION_ISSUES,You are experiencing connection issues
+NOTIFICATION_PLAYER_CONNECTION_ISSUES,{0} is experiencing connection issues
+NOTIFICATION_HOST_TIMEOUT_TO_OFFLINE,"Connection lost, you may continue but guests cannot join"
+MICROPHONE_PERMISSIONS_DENIED,"If you want to use voice communication in this application, you must change the permission in the headset's application settings."

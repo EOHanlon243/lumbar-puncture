@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -743517494, guid: 4866beb0bba132e4fb447afa30fe772b, type: 3}
+  m_Name: HapticDeviceConfiguration
+  m_EditorClassIdentifier: 
+  m_Models: []
+  m_DeviceStreams:
+  - DeviceStream: {fileID: -1625646207, guid: 4866beb0bba132e4fb447afa30fe772b, type: 3}
+    Configuration: {fileID: 0}
+    DeviceStreamType:
+      m_AssemblyName: Fvr.SDK.Atom, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_AssemblyQualifiedName: Fvr.SDK.Atom.Haptics.Input.Touch3dsPoseDeviceStream,
+        Fvr.SDK.Atom, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_Name: Touch3dsPoseDeviceStream
+  - DeviceStream: {fileID: -1067918515, guid: 4866beb0bba132e4fb447afa30fe772b, type: 3}
+    Configuration: {fileID: 0}
+    DeviceStreamType:
+      m_AssemblyName: Fvr.SDK.Atom, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_AssemblyQualifiedName: Fvr.SDK.Atom.Haptics.Input.Touch3dsButtonDeviceStream,
+        Fvr.SDK.Atom, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_Name: Touch3dsButtonDeviceStream
+  - DeviceStream: {fileID: -444984052, guid: 4866beb0bba132e4fb447afa30fe772b, type: 3}
+    Configuration: {fileID: 0}
+    DeviceStreamType:
+      m_AssemblyName: Fvr.SDK.Atom, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_AssemblyQualifiedName: Fvr.SDK.Atom.Haptics.Input.Touch3dsForceStreamOutput,
+        Fvr.SDK.Atom, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      m_Name: Touch3dsForceStreamOutput
+  m_DeviceName: Touch3ds
+  m_HapticArmsDLLName: HapticArmsDeviceLayer.dll
+  m_HapticArmsDLLPathEditor: /FVR/AtomSDK/Haptics/Plugins/
+  m_LeftDeviceOffset: {x: -0.185, y: 0.7, z: 0.5}
+  m_RightDeviceOffset: {x: 0.185, y: 0.7, z: 0.5}
+  m_FailGracefully: 1

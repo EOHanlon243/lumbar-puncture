@@ -1,0 +1,16 @@
+{
+  "m_Tags": [
+    {
+      "Tag": "<bullet>",
+      "Replacement": "\u2022<indent=4em>"
+    },
+    {
+      "Tag": "</bullet>",
+      "Replacement": "</indent>"
+    },
+    {
+      "Tag": "<degree>",
+      "Replacement": "\u00B0"
+    }
+  ]
+}
