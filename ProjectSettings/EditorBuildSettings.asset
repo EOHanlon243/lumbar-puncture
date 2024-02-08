@@ -21,11 +21,8 @@ EditorBuildSettings:
     path: Assets/FVR/FvrApplication/Scenes/MainScenes/LogoutScene.unity
     guid: e3d8a08117d400a4e900725c087f7031
   - enabled: 1
-    path: Assets/FVR/FvrApplication/Scenes/Modules/MOD_01/MOD_01_Simulation.unity
-    guid: 5b9144cb8c17f4d458359cfb57a03d84
-  - enabled: 1
-    path: Assets/FVR/FvrApplication/Scenes/Modules/MOD_02/MOD_02_Simulation.unity
-    guid: 3c5974b4d201001478e4d2efded53da0
+    path: Assets/FVR/FvrApplication/Scenes/Modules/MOD_LUMBAR/MOD_LUMBAR_Simulation.unity
+    guid: 15e0c033f95b032468cce419417b7740
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 10c8024a5f0c15340abef9844ed84295, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2e0e159586a9aea498508a25da5f2d92, type: 2}

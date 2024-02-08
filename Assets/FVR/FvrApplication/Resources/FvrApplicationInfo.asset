@@ -16,7 +16,8 @@ MonoBehaviour:
   m_Version: 1.3.1
   m_DisciplineID: APPLICATION_DISCIPLINE
   m_SubDisciplineID: APPLICATION_SUB_DISCIPLINE
-  m_IsHaptic: 0
+  m_IsHaptic: 1
   m_Modules:
   - {fileID: 11400000, guid: 40449faa7ed0e0d48b9416953cd3e67f, type: 2}
   - {fileID: 11400000, guid: da0f0d477fb93854dba61cdac14916d6, type: 2}
+  - {fileID: 11400000, guid: 3554981d05e41f24198e671db88ada61, type: 2}

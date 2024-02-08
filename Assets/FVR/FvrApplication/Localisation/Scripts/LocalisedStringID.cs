@@ -212,6 +212,22 @@ namespace Fvr.SDK.Common
 		public const string MOD_02_PAGE_INFO_GENERIC_8_SUBTITLE = "MOD_02_PAGE_INFO_GENERIC_8_SUBTITLE";
 		/// <summary> The ninth step is an example of a non assessed animation step.\n\nOnce the animation has finished playing, the user is instructed to press the <b>NEXT</b> button to advance to the next step.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </summary>
 		public const string MOD_02_PAGE_INFO_GENERIC_8_INSTRUCTIONS = "MOD_02_PAGE_INFO_GENERIC_8_INSTRUCTIONS";
+		/// <summary> Description Here please </summary>
+		public const string MOD_LUMBAR_DESCRIPTION = "MOD_LUMBAR_DESCRIPTION";
+		/// <summary> Lumbar Puncture module. </summary>
+		public const string MOD_LUMBAR_NAME = "MOD_LUMBAR_NAME";
+		/// <summary> Module LUMBAR Speciality </summary>
+		public const string MOD_LUMBAR_SPECIALITY = "MOD_LUMBAR_SPECIALITY";
+		/// <summary> Example lumbar puncture module </summary>
+		public const string MOD_LUMBAR_SUMMARY = "MOD_LUMBAR_SUMMARY";
+		/// <summary> Unit 1 </summary>
+		public const string MOD_LUMBAR_UNIT_00_NAME = "MOD_LUMBAR_UNIT_00_NAME";
+		/// <summary> Step 1 </summary>
+		public const string MOD_01_LUMBAR_00_NAME = "MOD_01_LUMBAR_00_NAME";
+		/// <summary> Step 1 </summary>
+		public const string MOD_LUMBAR_STEP_00_NAME = "MOD_LUMBAR_STEP_00_NAME";
+		/// <summary> Step 1 Title </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE";
 
 	}
 }

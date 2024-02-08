@@ -179,6 +179,8 @@ MonoBehaviour:
     m_Value: This is an example of a single player module and includes multiple different
       steps including assessed steps.\n\nLorem ipsum dolor sit amet, consectetur
       adipiscing elit, sed do eiusmod tempor incididunt ut.
+  - m_ID: MOD_01_LUMBAR_00_NAME
+    m_Value: Step 1
   - m_ID: MOD_01_NAME
     m_Value: Single Player Example
   - m_ID: MOD_01_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT
@@ -427,6 +429,20 @@ MonoBehaviour:
     m_Value: Unit 1
   - m_ID: MOD_02_UNIT_01_NAME
     m_Value: Unit 2
+  - m_ID: MOD_LUMBAR_DESCRIPTION
+    m_Value: Description Here please
+  - m_ID: MOD_LUMBAR_NAME
+    m_Value: Lumbar Puncture module.
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE
+    m_Value: Step 1 Title
+  - m_ID: MOD_LUMBAR_SPECIALITY
+    m_Value: Module LUMBAR Speciality
+  - m_ID: MOD_LUMBAR_STEP_00_NAME
+    m_Value: Step 1
+  - m_ID: MOD_LUMBAR_SUMMARY
+    m_Value: Example lumbar puncture module
+  - m_ID: MOD_LUMBAR_UNIT_00_NAME
+    m_Value: Unit 1
   - m_ID: MODULE_LIST
     m_Value: Module List
   - m_ID: MODULE_OUTCOME
