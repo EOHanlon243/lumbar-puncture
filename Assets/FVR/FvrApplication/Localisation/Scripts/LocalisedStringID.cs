@@ -228,6 +228,12 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_STEP_00_NAME = "MOD_LUMBAR_STEP_00_NAME";
 		/// <summary> Step 1 Title </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE";
+		/// <summary> Step 1 Subtitle </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE";
+		/// <summary> Bruh. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS";
+		/// <summary> Step 1 image description </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT";
 
 	}
 }

@@ -433,6 +433,15 @@ MonoBehaviour:
     m_Value: Description Here please
   - m_ID: MOD_LUMBAR_NAME
     m_Value: Lumbar Puncture module.
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT
+    m_Value: Step 1 image description
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS
+    m_Value: Bruh. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE
+    m_Value: Step 1 Subtitle
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE
     m_Value: Step 1 Title
   - m_ID: MOD_LUMBAR_SPECIALITY

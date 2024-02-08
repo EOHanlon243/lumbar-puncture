@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 856889909, guid: 356bd2145580d2f4f917c760a53e9e8d, type: 3}
-  m_Name: Module Simulation Page Info
+  m_Name: PageInfoGeneric 0
   m_EditorClassIdentifier: 
   m_TitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE
   m_DisplayTitle: 1
-  m_SubtitleID: LOREM_IPSUM
-  m_InstructionsID: LOREM_IPSUM
-  m_FirstImageSprite: {fileID: 0}
-  m_FirstImageSubtitleID: 
+  m_SubtitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE
+  m_InstructionsID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS
+  m_FirstImageSprite: {fileID: 21300000, guid: 5424584bfdd9bb14cbb407bdd81213bb, type: 3}
+  m_FirstImageSubtitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT
   m_SecondImageSprite: {fileID: 0}
   m_SecondImageSubtitleID: 
