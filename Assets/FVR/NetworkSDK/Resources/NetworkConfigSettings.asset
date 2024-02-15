@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 890558526, guid: 373a2ec4cea8fbb4583989c163ceb9f3, type: 3}
   m_Name: NetworkConfigSettings
   m_EditorClassIdentifier: 
-  m_UseMultiplayer: 1
+  m_UseMultiplayer: 0
   m_AutoConnect: 1
   m_RoomLimit: 10
   m_SendRate: 30
