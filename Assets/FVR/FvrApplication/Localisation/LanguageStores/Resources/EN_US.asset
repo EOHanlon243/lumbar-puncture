@@ -448,6 +448,24 @@ MonoBehaviour:
     m_Value: Module LUMBAR Speciality
   - m_ID: MOD_LUMBAR_STEP_00_NAME
     m_Value: Step 1
+  - m_ID: MOD_LUMBAR_STEP_00_SUB_A_NAME
+    m_Value: Step 1A
+  - m_ID: MOD_LUMBAR_STEP_00_SUB_B_NAME
+    m_Value: Step 1B
+  - m_ID: MOD_LUMBAR_STEP_00_SUB_C_NAME
+    m_Value: Step 1C
+  - m_ID: MOD_LUMBAR_STEP_00_SUB_D_NAME
+    m_Value: Step 1D
+  - m_ID: MOD_LUMBAR_STEP_03_SUB_A_NAME
+    m_Value: Step 4A
+  - m_ID: MOD_LUMBAR_STEP_03_SUB_B_NAME
+    m_Value: Step 4B
+  - m_ID: MOD_LUMBAR_STEP_03_SUB_C_NAME
+    m_Value: Step 4C
+  - m_ID: MOD_LUMBAR_STEP_04_SUB_A_NAME
+    m_Value: Step 5A
+  - m_ID: MOD_LUMBAR_STEP_04_SUB_B_NAME
+    m_Value: Step 5B
   - m_ID: MOD_LUMBAR_SUMMARY
     m_Value: Example lumbar puncture module
   - m_ID: MOD_LUMBAR_UNIT_00_NAME

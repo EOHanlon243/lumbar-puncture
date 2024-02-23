@@ -234,6 +234,24 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS";
 		/// <summary> Step 1 image description </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT";
+		/// <summary> Step 1A </summary>
+		public const string MOD_LUMBAR_STEP_00_SUB_A_NAME = "MOD_LUMBAR_STEP_00_SUB_A_NAME";
+		/// <summary> Step 1B </summary>
+		public const string MOD_LUMBAR_STEP_00_SUB_B_NAME = "MOD_LUMBAR_STEP_00_SUB_B_NAME";
+		/// <summary> Step 1C </summary>
+		public const string MOD_LUMBAR_STEP_00_SUB_C_NAME = "MOD_LUMBAR_STEP_00_SUB_C_NAME";
+		/// <summary> Step 1D </summary>
+		public const string MOD_LUMBAR_STEP_00_SUB_D_NAME = "MOD_LUMBAR_STEP_00_SUB_D_NAME";
+		/// <summary> Step 4A </summary>
+		public const string MOD_LUMBAR_STEP_03_SUB_A_NAME = "MOD_LUMBAR_STEP_03_SUB_A_NAME";
+		/// <summary> Step 4B </summary>
+		public const string MOD_LUMBAR_STEP_03_SUB_B_NAME = "MOD_LUMBAR_STEP_03_SUB_B_NAME";
+		/// <summary> Step 4C </summary>
+		public const string MOD_LUMBAR_STEP_03_SUB_C_NAME = "MOD_LUMBAR_STEP_03_SUB_C_NAME";
+		/// <summary> Step 5A </summary>
+		public const string MOD_LUMBAR_STEP_04_SUB_A_NAME = "MOD_LUMBAR_STEP_04_SUB_A_NAME";
+		/// <summary> Step 5B </summary>
+		public const string MOD_LUMBAR_STEP_04_SUB_B_NAME = "MOD_LUMBAR_STEP_04_SUB_B_NAME";
 
 	}
 }
