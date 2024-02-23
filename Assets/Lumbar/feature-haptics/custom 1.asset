@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 75061792, guid: 4866beb0bba132e4fb447afa30fe772b, type: 3}
-  m_Name: ExampleHardLine
+  m_Name: custom 1
   m_EditorClassIdentifier: 
   m_MaterialData:
-    PrimaryFriction: 10
-    SecondaryFriction: 10
-    EdgePID: {x: 200, y: 0.2, z: 50}
-    PrimaryPID: {x: 200, y: 0.2, z: 50}
-    SecondaryPID: {x: 200, y: 0.2, z: 50}
-  m_MaterialName: Hard Line
+    PrimaryFriction: 50
+    SecondaryFriction: 0
+    EdgePID: {x: 0, y: 0, z: 0}
+    PrimaryPID: {x: 0, y: 0, z: 0}
+    SecondaryPID: {x: 0, y: 0, z: 0}
+  m_MaterialName: Custom
   m_PIDValues: {x: 0, y: 0, z: 0}
