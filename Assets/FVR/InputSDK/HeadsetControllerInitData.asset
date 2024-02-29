@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10afa86f3a082b446a570c19edc3579c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: HeadsetControllerInitData
   m_EditorClassIdentifier: 
-  m_IOCursorInitPrefab: {fileID: 4645765257400044522, guid: ff86ef9dab4cd5e478811c9256463916,
-    type: 3}
-  m_Origins: 00000000
