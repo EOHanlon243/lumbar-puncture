@@ -220,38 +220,70 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_SPECIALITY = "MOD_LUMBAR_SPECIALITY";
 		/// <summary> Example lumbar puncture module </summary>
 		public const string MOD_LUMBAR_SUMMARY = "MOD_LUMBAR_SUMMARY";
-		/// <summary> Unit 1 </summary>
+		/// <summary> Lumbar Puncture Procedure </summary>
 		public const string MOD_LUMBAR_UNIT_00_NAME = "MOD_LUMBAR_UNIT_00_NAME";
 		/// <summary> Step 1 </summary>
 		public const string MOD_01_LUMBAR_00_NAME = "MOD_01_LUMBAR_00_NAME";
-		/// <summary> Step 1 </summary>
+		/// <summary> Identify Anatomical Landmarks </summary>
 		public const string MOD_LUMBAR_STEP_00_NAME = "MOD_LUMBAR_STEP_00_NAME";
-		/// <summary> Step 1 Title </summary>
+		/// <summary> Identify Atomical Landmarks </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE";
-		/// <summary> Step 1 Subtitle </summary>
+		/// <summary> In this step, you would do the following: </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE";
-		/// <summary> Bruh. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </summary>
+		/// <summary> - Palpate for the highest points of the iliac crests – a direct line joining these structures is a guide to the fourth lumbar vertebral body (may be higher in obese patients). \n\n- Palpate distally for the spinous processes of L3, L4 and L5 and the interspaces in between. \n\n- Mark the target LP puncture site and then the spinal needle can be inserted safely into the subarachnoid space at L3-4 or L4-5 interspaces.  </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS";
 		/// <summary> Step 1 image description </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT";
-		/// <summary> Step 1A </summary>
-		public const string MOD_LUMBAR_STEP_00_SUB_A_NAME = "MOD_LUMBAR_STEP_00_SUB_A_NAME";
-		/// <summary> Step 1B </summary>
-		public const string MOD_LUMBAR_STEP_00_SUB_B_NAME = "MOD_LUMBAR_STEP_00_SUB_B_NAME";
-		/// <summary> Step 1C </summary>
-		public const string MOD_LUMBAR_STEP_00_SUB_C_NAME = "MOD_LUMBAR_STEP_00_SUB_C_NAME";
-		/// <summary> Step 1D </summary>
-		public const string MOD_LUMBAR_STEP_00_SUB_D_NAME = "MOD_LUMBAR_STEP_00_SUB_D_NAME";
-		/// <summary> Step 4A </summary>
-		public const string MOD_LUMBAR_STEP_03_SUB_A_NAME = "MOD_LUMBAR_STEP_03_SUB_A_NAME";
-		/// <summary> Step 4B </summary>
-		public const string MOD_LUMBAR_STEP_03_SUB_B_NAME = "MOD_LUMBAR_STEP_03_SUB_B_NAME";
-		/// <summary> Step 4C </summary>
-		public const string MOD_LUMBAR_STEP_03_SUB_C_NAME = "MOD_LUMBAR_STEP_03_SUB_C_NAME";
-		/// <summary> Step 5A </summary>
-		public const string MOD_LUMBAR_STEP_04_SUB_A_NAME = "MOD_LUMBAR_STEP_04_SUB_A_NAME";
-		/// <summary> Step 5B </summary>
-		public const string MOD_LUMBAR_STEP_04_SUB_B_NAME = "MOD_LUMBAR_STEP_04_SUB_B_NAME";
+		/// <summary> LP Needle </summary>
+		public const string MOD_LUMBAR_STEP_02 = "MOD_LUMBAR_STEP_02";
+		/// <summary> Removing LP Needle </summary>
+		public const string MOD_LUMBAR_STEP_06_NAME = "MOD_LUMBAR_STEP_06_NAME";
+		/// <summary> Inserting LP Needle </summary>
+		public const string MOD_LUMBAR_STEP_03 = "MOD_LUMBAR_STEP_03";
+		/// <summary> Collect CSF Samples </summary>
+		public const string MOD_LUMBAR_STEP_05 = "MOD_LUMBAR_STEP_05";
+		/// <summary> Measure Opening Pressure </summary>
+		public const string MOD_LUMBAR_STEP_04 = "MOD_LUMBAR_STEP_04";
+		/// <summary> Inject local anaesthesia </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_TITLE";
+		/// <summary> In this step, you would be following theses steps:\n\n- Inject the local anaesthesia. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTION = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTION";
+		/// <summary> In this step, you would do the following: </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_SUBTITLE";
+		/// <summary> Inject Local Anaesthesia </summary>
+		public const string MOD_LUMBAR_STEP_01_NAME = "MOD_LUMBAR_STEP_01_NAME";
+		/// <summary> - Inject the local anaesthesia. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTIONS";
+		/// <summary> Select an LP Needle </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_2_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_2_TITLE";
+		/// <summary> In this step, you would do the following: </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_2_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_2_SUBTITLE";
+		/// <summary> In this step, you would do the following: </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_3_SUBTITLE";
+		/// <summary> In this step, you would do the following: </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_4_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_4_SUBTITLE";
+		/// <summary> In this step, you would do the following: </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_5_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_5_SUBTITLE";
+		/// <summary> In this step, you would do the following: </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_6_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_6_SUBTITLE";
+		/// <summary> - Select an LP Needle. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_2_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_2_INSTRUCTIONS";
+		/// <summary> - Insert the LP needle (or if using the atraumatic needle, insert the inducer first, and then the LP needle through it); the bevel of the needle should be oriented upwards if the patient is on their side.\n\n- Advance the needle slowly and stay conscious of the resistance when piercing the supraspinous ligament, then the ligamentum flavum, and finally In most patients, there will be a resistance followed by a sudden ease of insertion (a “give”), which should represent successful insertion into the subarachnoid space. \n\n- Check that you are in the right space regularly by drawing back the stylet to check for CSF. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_3_INSTRUCTIONS";
+		/// <summary> Inserting the LP Needle </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_3_TITLE";
+		/// <summary> Measure Opening Pressure </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_4_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_4_TITLE";
+		/// <summary> - Measure the opening pressure.\n\n- Attach to Manometer to the LP needle.\n\n- Keep the tube of the Manometer at the same level of the needle 5.3. Wait for the CSF to stabilise and record the reading. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_4_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_4_INSTRUCTIONS";
+		/// <summary> Collecting CSF samples  </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_5_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_5_TITLE";
+		/// <summary> - Collect the CSF samples into the appropriate bottles. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_5_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_5_INSTRUCTIONS";
+		/// <summary> - Re-insert the Stylet into the LP needle before removing the needle. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_6_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_6_INSTRUCTIONS";
+		/// <summary> Removing LP Needle </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_6_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_6_TITLE";
 
 	}
 }

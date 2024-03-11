@@ -436,40 +436,85 @@ MonoBehaviour:
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT
     m_Value: Step 1 image description
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS
-    m_Value: Bruh. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
+    m_Value: "- Palpate for the highest points of the iliac crests \u2013 a direct
+      line joining these structures is a guide to the fourth lumbar vertebral body
+      (may be higher in obese patients). \\n\\n- Palpate distally for the spinous
+      processes of L3, L4 and L5 and the interspaces in between. \\n\\n- Mark the
+      target LP puncture site and then the spinal needle can be inserted safely into
+      the subarachnoid space at L3-4 or L4-5 interspaces. "
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE
-    m_Value: Step 1 Subtitle
+    m_Value: 'In this step, you would do the following:'
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE
-    m_Value: Step 1 Title
+    m_Value: Identify Atomical Landmarks
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTION
+    m_Value: In this step, you would be following theses steps:\n\n- Inject the local
+      anaesthesia.
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTIONS
+    m_Value: '- Inject the local anaesthesia.'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_1_SUBTITLE
+    m_Value: 'In this step, you would do the following:'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_1_TITLE
+    m_Value: Inject local anaesthesia
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_2_INSTRUCTIONS
+    m_Value: '- Select an LP Needle.'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_2_SUBTITLE
+    m_Value: 'In this step, you would do the following:'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_2_TITLE
+    m_Value: Select an LP Needle
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3_INSTRUCTIONS
+    m_Value: "- Insert the LP needle (or if using the atraumatic needle, insert the
+      inducer first, and then the LP needle through it); the bevel of the needle
+      should be oriented upwards if the patient is on their side.\\n\\n- Advance
+      the needle slowly and stay conscious of the resistance when piercing the supraspinous
+      ligament, then the ligamentum flavum, and finally In most patients, there will
+      be a resistance followed by a sudden ease of insertion (a \u201Cgive\u201D),
+      which should represent successful insertion into the subarachnoid space. \\n\\n-
+      Check that you are in the right space regularly by drawing back the stylet
+      to check for CSF."
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3_SUBTITLE
+    m_Value: 'In this step, you would do the following:'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3_TITLE
+    m_Value: Inserting the LP Needle
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_4_INSTRUCTIONS
+    m_Value: '- Measure the opening pressure.\n\n- Attach to Manometer to the LP
+      needle.\n\n- Keep the tube of the Manometer at the same level of the needle
+      5.3. Wait for the CSF to stabilise and record the reading.'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_4_SUBTITLE
+    m_Value: 'In this step, you would do the following:'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_4_TITLE
+    m_Value: Measure Opening Pressure
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_5_INSTRUCTIONS
+    m_Value: '- Collect the CSF samples into the appropriate bottles.'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_5_SUBTITLE
+    m_Value: 'In this step, you would do the following:'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_5_TITLE
+    m_Value: 'Collecting CSF samples '
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_6_INSTRUCTIONS
+    m_Value: '- Re-insert the Stylet into the LP needle before removing the needle.'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_6_SUBTITLE
+    m_Value: 'In this step, you would do the following:'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_6_TITLE
+    m_Value: Removing LP Needle
   - m_ID: MOD_LUMBAR_SPECIALITY
     m_Value: Module LUMBAR Speciality
   - m_ID: MOD_LUMBAR_STEP_00_NAME
-    m_Value: Step 1
-  - m_ID: MOD_LUMBAR_STEP_00_SUB_A_NAME
-    m_Value: Step 1A
-  - m_ID: MOD_LUMBAR_STEP_00_SUB_B_NAME
-    m_Value: Step 1B
-  - m_ID: MOD_LUMBAR_STEP_00_SUB_C_NAME
-    m_Value: Step 1C
-  - m_ID: MOD_LUMBAR_STEP_00_SUB_D_NAME
-    m_Value: Step 1D
-  - m_ID: MOD_LUMBAR_STEP_03_SUB_A_NAME
-    m_Value: Step 4A
-  - m_ID: MOD_LUMBAR_STEP_03_SUB_B_NAME
-    m_Value: Step 4B
-  - m_ID: MOD_LUMBAR_STEP_03_SUB_C_NAME
-    m_Value: Step 4C
-  - m_ID: MOD_LUMBAR_STEP_04_SUB_A_NAME
-    m_Value: Step 5A
-  - m_ID: MOD_LUMBAR_STEP_04_SUB_B_NAME
-    m_Value: Step 5B
+    m_Value: Identify Anatomical Landmarks
+  - m_ID: MOD_LUMBAR_STEP_01_NAME
+    m_Value: Inject Local Anaesthesia
+  - m_ID: MOD_LUMBAR_STEP_02
+    m_Value: LP Needle
+  - m_ID: MOD_LUMBAR_STEP_03
+    m_Value: Inserting LP Needle
+  - m_ID: MOD_LUMBAR_STEP_04
+    m_Value: Measure Opening Pressure
+  - m_ID: MOD_LUMBAR_STEP_05
+    m_Value: Collect CSF Samples
+  - m_ID: MOD_LUMBAR_STEP_06_NAME
+    m_Value: Removing LP Needle
   - m_ID: MOD_LUMBAR_SUMMARY
     m_Value: Example lumbar puncture module
   - m_ID: MOD_LUMBAR_UNIT_00_NAME
-    m_Value: Unit 1
+    m_Value: Lumbar Puncture Procedure
   - m_ID: MODULE_LIST
     m_Value: Module List
   - m_ID: MODULE_OUTCOME

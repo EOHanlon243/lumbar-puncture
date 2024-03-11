@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1616359877, guid: fbec6e7af56287e4481083d9895cdcd5, type: 3}
   m_Name: STEP_3
   m_EditorClassIdentifier: 
-  m_DisplayNameID: MOD_LUMBAR_STEP_00_NAME
+  m_DisplayNameID: MOD_LUMBAR_STEP_03_NAME
   m_Type: 2
   m_HelpLabelsAvailable: 0
   m_HelpTextAvailable: 0
