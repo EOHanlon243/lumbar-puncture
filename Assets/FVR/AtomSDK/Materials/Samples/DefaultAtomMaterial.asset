@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 75061792, guid: 4866beb0bba132e4fb447afa30fe772b, type: 3}
   m_Name: DefaultAtomMaterial
   m_EditorClassIdentifier: 
-  m_MaterialName: DefaultAtomMaterial
   m_MaterialData:
-    PrimaryPID: {x: 200, y: 0.2, z: 50}
-    SecondaryPID: {x: 200, y: 0.2, z: 50}
-    EdgePID: {x: 200, y: 0.2, z: 50}
-    PrimaryFriction: 5
-    SecondaryFriction: 5
+    PrimaryFriction: 1000
+    SecondaryFriction: 1
+    EdgePID: {x: 10000, y: 0.2, z: 50}
+    PrimaryPID: {x: 10000, y: 0.2, z: 50}
+    SecondaryPID: {x: 10000, y: 0.2, z: 50}
+  m_MaterialName: DefaultAtomMaterial
   m_PIDValues: {x: 0, y: 0, z: 0}
