@@ -1,8 +1,0 @@
-- name: Build Documentation
-  if: env.REPO_ALIVE == 1
-  run: |
-    mkdir /c/Data/Upload/Documentation
-    cd /c/actions-runner/_work/${{ matrix.repoName }}/${{ matrix.repoName }}/${{ matrix.workFolder }}
-    "/c/Program Files/doxygen/bin/doxygen.exe" "./Documentation/Doxyfile"
-    "/c/Program Files/7-Zip/7z.exe" a -tzip /c/Data/Upload/Documentation/Doxygen.zip "./Documentation/html"
-  shell: bash  

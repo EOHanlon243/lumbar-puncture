@@ -1,9 +1,0 @@
-- name: Upload to Dropbox
-  uses: funvr/fvr-action-copy-to-dropbox@v0.4.4
-  if: env.REPO_ALIVE == 1
-  with:
-    token: ${{ secrets.DROPBOX_ACCESS_TOKEN }}
-    srcPath: C:/Data/Upload
-    dstPath: /Builds/AutomatedBuilds/Develop/
-    timestamp: true
-    projectName: ${{ matrix.projectName }}

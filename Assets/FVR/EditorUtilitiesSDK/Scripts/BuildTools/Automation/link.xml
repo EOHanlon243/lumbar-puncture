@@ -1,5 +1,0 @@
-<linker>
-	<assembly fullname="Fvr.SDK.EditorUtilities">
-		<type fullname="Fvr.SDK.EditorUtilities.CommandLineApplicationBuilder" preserve="all"/>
-	</assembly>
-</linker>

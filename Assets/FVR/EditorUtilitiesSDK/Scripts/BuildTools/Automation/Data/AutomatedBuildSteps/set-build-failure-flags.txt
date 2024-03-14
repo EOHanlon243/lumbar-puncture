@@ -1,6 +1,0 @@
-- name: Set flag on failure
-  if: failure()
-  run: |
-    echo "REPO_ALIVE=0" >> $GITHUB_ENV        
-    echo "BUILD_FAILED=1" >> $GITHUB_ENV        
-  shell: bash

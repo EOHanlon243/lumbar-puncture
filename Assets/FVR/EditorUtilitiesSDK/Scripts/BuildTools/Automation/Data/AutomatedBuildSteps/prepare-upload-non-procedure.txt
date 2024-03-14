@@ -1,6 +1,0 @@
-- name: Prepare Upload
-  if: env.REPO_ALIVE == 1
-  run: |
-    mkdir /c/Data/Upload/${{ matrix.repoName }}
-    cp -r /c/actions-runner/_work/${{ matrix.repoName }}/${{ matrix.repoName }}/${{ matrix.workFolder }}/Build/* /c/Data/Upload/${{ matrix.repoName }}
-  shell: bash

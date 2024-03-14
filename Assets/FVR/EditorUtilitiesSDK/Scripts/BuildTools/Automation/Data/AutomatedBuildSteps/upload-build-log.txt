@@ -1,6 +1,0 @@
-- name: Upload build log
-  uses: actions/upload-artifact@v2
-  if: env.BUILD_FAILED == 1
-  with:
-    name: build-log
-    path: C:\actions-runner\_work\${{ matrix.repoName }}\${{ matrix.repoName }}\${{ matrix.workFolder }}\build.log
