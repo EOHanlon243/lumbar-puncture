@@ -9,9 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10afa86f3a082b446a570c19edc3579c, type: 3}
+  m_Script: {fileID: 0}
   m_Name: XRControllerInitData
   m_EditorClassIdentifier: 
-  m_IOCursorInitPrefab: {fileID: 4781870204278969416, guid: fa395cf13499fe84ead3bb562467bd5e,
-    type: 3}
-  m_Origins: 000000200000004000000010

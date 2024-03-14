@@ -16,7 +16,7 @@ MonoBehaviour:
   m_DisplayTitle: 1
   m_SubtitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE
   m_InstructionsID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS
-  m_FirstImageSprite: {fileID: 21300000, guid: 5424584bfdd9bb14cbb407bdd81213bb, type: 3}
-  m_FirstImageSubtitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT
+  m_FirstImageSprite: {fileID: 0}
+  m_FirstImageSubtitleID: 
   m_SecondImageSprite: {fileID: 0}
   m_SecondImageSubtitleID: 

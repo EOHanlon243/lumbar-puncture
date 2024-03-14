@@ -15,8 +15,14 @@ MonoBehaviour:
   m_MaterialData:
     PrimaryFriction: 10
     SecondaryFriction: 10
+<<<<<<< HEAD
     EdgePID: {x: 200, y: 0.2, z: 50}
     PrimaryPID: {x: 200, y: 0.2, z: 50}
     SecondaryPID: {x: 200, y: 0.2, z: 50}
+=======
+    EdgePID: {x: 400, y: 0.2, z: 50}
+    PrimaryPID: {x: 500, y: 0.2, z: 50}
+    SecondaryPID: {x: 400, y: 0.2, z: 50}
+>>>>>>> main
   m_MaterialName: Hard Line
   m_PIDValues: {x: 0, y: 0, z: 0}
