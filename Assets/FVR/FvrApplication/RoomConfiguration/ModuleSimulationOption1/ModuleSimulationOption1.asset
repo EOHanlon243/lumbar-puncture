@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -187751564, guid: fbec6e7af56287e4481083d9895cdcd5, type: 3}
+  m_Name: ModuleSimulationOption1
+  m_EditorClassIdentifier: 
+  m_ConfigurableRoomPrefab: {fileID: 5088173760616937575, guid: 4be1945a07127c5438c32acd47d4927d,
+    type: 3}
+  m_LogoTexture: {fileID: 2800000, guid: 6695c7d2ad027384c9504772ba205c2e, type: 3}
+  m_Palettes:
+  - m_Category: Ceiling
+    m_PaletteSets:
+    - m_PaletteName: Mat_Ceiling_Strip
+      m_Material: {fileID: 2100000, guid: 66e51a8b33c715b40aa08bec882edef6, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 0, g: 1, b: 1, a: 1}
+    - m_PaletteName: Mat_Ceiling01
+      m_Material: {fileID: 2100000, guid: 3b8f6d20e3b98f24c814614b4a7759d8, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - m_PaletteName: Mat_Ceiling02
+      m_Material: {fileID: 2100000, guid: b303ea5590924ba4ea965eec97ba2888, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 1, g: 1, b: 1, a: 1}
+    - m_PaletteName: Mat_CeilingRing
+      m_Material: {fileID: 2100000, guid: dc27187aa3e3d054d9121945a4be2965, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 1, g: 1, b: 1, a: 1}
+  - m_Category: Doors
+    m_PaletteSets:
+    - m_PaletteName: Mat_DoorFrames
+      m_Material: {fileID: 2100000, guid: 10b2220ac366c8a42848d88439f4ca4f, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 0.32075468, g: 0.32075468, b: 0.32075468, a: 1}
+    - m_PaletteName: Mat_Doors
+      m_Material: {fileID: 2100000, guid: 8cdf16a3b85f3aa41970e14a54e2fe93, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 1, g: 1, b: 1, a: 1}
+    - m_PaletteName: Mat_DoorEdging
+      m_Material: {fileID: 2100000, guid: 73253b620b0d9d24e820944d845b4992, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - m_PaletteName: Mat_Door_Frame_Glass
+      m_Material: {fileID: 2100000, guid: 9648d1e7f032a5041ac05f40f8333ecc, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  - m_Category: Floor
+    m_PaletteSets:
+    - m_PaletteName: Mat_Floor02
+      m_Material: {fileID: 2100000, guid: fb932a1d22f11e64193d8e2563d026ea, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 0.809, g: 0.7479434, b: 0.76320755, a: 1}
+    - m_PaletteName: Mat_Accent
+      m_Material: {fileID: 2100000, guid: 6f0582292b4ab74459b7beec6a155fca, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 1, g: 1, b: 1, a: 1}
+  - m_Category: Wall
+    m_PaletteSets:
+    - m_PaletteName: Mat_Walls
+      m_Material: {fileID: 2100000, guid: db03723f7fc6cd0478dd5932e1f5ef21, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 1, g: 1, b: 1, a: 1}
+    - m_PaletteName: Mat_WallAccent
+      m_Material: {fileID: 2100000, guid: 6c92961b37bebf84f90219cd188ad2e3, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 0, g: 0.8784314, b: 0.9411765, a: 1}
+  - m_Category: Windows
+    m_PaletteSets:
+    - m_PaletteName: Mat_Window_Frames
+      m_Material: {fileID: 2100000, guid: 433048af6cec8a54e89114db78ea7785, type: 2}
+      m_RoomConfiguration: {fileID: 11400000}
+      m_Colour: {r: 0.37647057, g: 0.5882353, b: 0.7490196, a: 1}

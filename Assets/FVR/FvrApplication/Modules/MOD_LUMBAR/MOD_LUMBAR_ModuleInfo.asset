@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1977812749, guid: fbec6e7af56287e4481083d9895cdcd5, type: 3}
+  m_Name: MOD_LUMBAR_ModuleInfo
+  m_EditorClassIdentifier: 
+  m_Code: MOD_LUMBAR
+  m_Type: 1
+  m_Version: 0.0.1
+  m_NameID: MOD_LUMBAR_NAME
+  m_SpecialityID: MOD_LUMBAR_SPECIALITY
+  m_SummaryID: MOD_LUMBAR_SUMMARY
+  m_HeaderImageLocation: 
+  m_TeaserVideoLocation: 
+  m_DescriptionID: MOD_LUMBAR_DESCRIPTION
+  m_SpecificModuleAttemptType: 0
+  m_TurnOffHelpAfterSteps: 1
+  m_NumberOfHapticArms: 2
+  m_IsMultiplayer: 0
+  m_ScenePath:
+    m_ScenePath: Assets/FVR/FvrApplication/Scenes/Modules/MOD_LUMBAR/MOD_LUMBAR_Simulation.unity

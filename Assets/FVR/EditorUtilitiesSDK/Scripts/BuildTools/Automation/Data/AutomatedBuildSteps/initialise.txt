@@ -1,0 +1,8 @@
+- name: Initialise
+  run: |
+    echo "TIME_STAMP=$(date +'%Y-%m-%dT%H:%MZ')" >> $GITHUB_ENV
+    echo "REPO_ALIVE=1" >> $GITHUB_ENV
+    echo "BUILD_FAILED=0" >> $GITHUB_ENV
+    rm -r /c/Data/Upload
+    mkdir /c/Data/Upload
+  shell: bash

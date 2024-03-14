@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 927469589, guid: 356bd2145580d2f4f917c760a53e9e8d, type: 3}
+  m_Name: EndSessionButton
+  m_EditorClassIdentifier: 
+  Name: 
+  Label: Home
+  LabelLocalisedID: 
+  Icon: {fileID: 21300000, guid: b7f91d18831de0742af7d2907176626c, type: 3}
+  HostOnly: 0
+  FvrDebugOnly: 0
+  ClassesValidated: 1
+  ClassesToAdd:
+  - WristMenuButtonLeave
+  PressType: 0
+  ActiveByDefault: 0
+  ActiveLabel: 
+  ActiveLabelLocalisedID: 
+  ActiveIcon: {fileID: 0}
+  ActiveColor: {r: 1, g: 0.70980394, b: 0.7960785, a: 1}
+  InactiveColor: {r: 0.94117653, g: 0, b: 0.2784314, a: 1}
+  DisabledColor: {r: 0.8117648, g: 0.8117648, b: 0.8117648, a: 1}
+  PlatformDependent: 0
+  ShowButtonOn: 
+  HideButtonOn: 
+  CustomPanel: {fileID: 6321081819099262507, guid: 817bee4be3d6f7641bacdf8a7f7bf87a,
+    type: 3}
+  PanelTint: {r: 1, g: 1, b: 1, a: 1}

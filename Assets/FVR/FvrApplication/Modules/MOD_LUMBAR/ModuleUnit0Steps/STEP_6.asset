@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1616359877, guid: fbec6e7af56287e4481083d9895cdcd5, type: 3}
+  m_Name: STEP_6
+  m_EditorClassIdentifier: 
+  m_DisplayNameID: MOD_LUMBAR_STEP_06_NAME
+  m_Type: 2
+  m_HelpLabelsAvailable: 0
+  m_HelpTextAvailable: 0
+  m_HelpVoiceOverAvailable: 0
+  m_HelpVisualGuidanceAvailable: 0
+  m_ModuleUnitInfo: {fileID: 11400000, guid: 81246eb5e02fd594aba7d2b4cba993c5, type: 2}

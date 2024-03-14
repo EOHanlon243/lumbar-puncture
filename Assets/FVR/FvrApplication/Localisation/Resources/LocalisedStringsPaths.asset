@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 249723541, guid: e97c04cb712cb964eb4e7f9140ab5ed4, type: 3}
+  m_Name: LocalisedStringsPaths
+  m_EditorClassIdentifier: 
+  CSVFiles:
+  - Type: 0
+    Path: FVR/UISDK/Localisation/Login
+    IsShared: 1
+    Locale: 0
+  - Type: 0
+    Path: FVR/UISDK/Localisation/ModuleSimulation
+    IsShared: 1
+    Locale: 0
+  - Type: 0
+    Path: FVR/FvrApplication/Localisation/CSVs/FvrApplicationLocalisation
+    IsShared: 0
+    Locale: 0
+  - Type: 0
+    Path: FVR/UISDK/Localisation/Lobby
+    IsShared: 1
+    Locale: 0
+  - Type: 0
+    Path: FVR/UISDK/Localisation/FvrApplicationLoader
+    IsShared: 1
+    Locale: 0
+  - Type: 0
+    Path: FVR/AssessmentSDK/Localisation/Assessment
+    IsShared: 1
+    Locale: 0
+  - Type: 0
+    Path: FVR/NetworkSDK/Localisation/Network
+    IsShared: 1
+    Locale: 0
+  LanguageAssets: Assets/FVR/FvrApplication/Localisation/LanguageStores/Resources/
+  TagsAssets: Assets/FVR/FvrApplication/Localisation/LanguageStores/Resources/
+  StringIds: Assets/FVR/FvrApplication/Localisation/Scripts/LocalisedStringID.cs
+  LocalisedStringsTags: Assets/FVR/Localisation/Data/LocalisedStringsTags.json
+  Templates: Assets/FVR/Localisation/Data/

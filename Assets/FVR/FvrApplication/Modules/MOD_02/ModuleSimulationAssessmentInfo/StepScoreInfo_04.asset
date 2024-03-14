@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 94280412, guid: d460247fd87ae4642aa2bfb61bc01be1, type: 3}
+  m_Name: StepScoreInfo_04
+  m_EditorClassIdentifier: 
+  m_StepScoreGradeBoundaries:
+  - m_Grade: 2
+    m_MinimumBoundary: 0
+  - m_Grade: 1
+    m_MinimumBoundary: 60
+  m_AdverseEvents: []
+  m_VisualHelpSystemWeight: 0.6
+  m_TextHelpSystemWeight: 0.4
+  m_VoiceHelpSystemWeight: 0.2
+  m_StepWeight: 0.7
+  m_PassThresholdBoundary:
+    m_Grade: 1
+    m_MinimumBoundary: 60

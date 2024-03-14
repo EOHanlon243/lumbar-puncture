@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1032366066, guid: 356bd2145580d2f4f917c760a53e9e8d, type: 3}
+  m_Name: DebugToolsButton
+  m_EditorClassIdentifier: 
+  Name: 
+  Label: Debug Tools
+  LabelLocalisedID: 
+  Icon: {fileID: 21300000, guid: 88aae46356b15a248b53c5a330564ca8, type: 3}
+  HostOnly: 0
+  FvrDebugOnly: 1
+  ClassesValidated: 1
+  ClassesToAdd: []
+  PressType: 0
+  ActiveByDefault: 0
+  ActiveLabel: 
+  ActiveLabelLocalisedID: 
+  ActiveIcon: {fileID: 0}
+  ActiveColor: {r: 0.8444313, g: 0.936, b: 0.822744, a: 1}
+  InactiveColor: {r: 0.7372549, g: 0.8862746, b: 0.7019608, a: 1}
+  DisabledColor: {r: 0.8117647, g: 0.8117647, b: 0.8117647, a: 1}
+  PlatformDependent: 0
+  ShowButtonOn: 
+  HideButtonOn: 
+  ButtonsInFolder: []
+  PanelTint: {r: 0.7372549, g: 0.8862745, b: 0.7019608, a: 1}
+  FolderName: Debug Tools
+  FolderNameLocalisedID: 
+  FolderDescription: 
+  FolderDescriptionLocalisedID: 

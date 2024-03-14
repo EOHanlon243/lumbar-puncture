@@ -1,0 +1,9 @@
+
+
+	/// <summary>
+	/// StringID const class for the {0} strings
+	/// </summary>
+	public partial class {0}
+	{{
+{1}
+	}}

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/FVR/FvrApplication/Scenes/MainScenes/FvrApplicationLoader.unity
+    guid: 6d49ff55aa8e26042a6bc9726befe92d
+  - enabled: 1
+    path: Assets/FVR/FvrApplication/Scenes/MainScenes/Login.unity
+    guid: 50bf493dd7077114f957f0e016963cf5
+  - enabled: 1
+    path: Assets/FVR/FvrApplication/Scenes/MainScenes/Lobby.unity
+    guid: d8fe5cd8228f39b46af282440fea6013
+  - enabled: 1
+    path: Assets/FVR/FvrApplication/Scenes/MainScenes/ReturnToLobbyScene.unity
+    guid: 8fc85d2bd19816448b3f49f1488ac575
+  - enabled: 1
+    path: Assets/FVR/FvrApplication/Scenes/MainScenes/LogoutScene.unity
+    guid: e3d8a08117d400a4e900725c087f7031
+  - enabled: 1
+    path: Assets/FVR/FvrApplication/Scenes/Modules/MOD_LUMBAR/MOD_LUMBAR_Simulation.unity
+    guid: 15e0c033f95b032468cce419417b7740
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 10c8024a5f0c15340abef9844ed84295, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 2e0e159586a9aea498508a25da5f2d92, type: 2}

@@ -1,0 +1,2089 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2082606402, guid: 356bd2145580d2f4f917c760a53e9e8d, type: 3}
+  m_Name: FvrBrandTheme
+  m_EditorClassIdentifier: 
+  m_DefaultFont: {fileID: 0}
+  m_PalettesID:
+  - FVR_Button
+  - FVR_Dropdown
+  - FVR_InputField
+  - FVR_Scrollbar
+  - FVR_Slider
+  - FVR_Toggle
+  - FVR_Text
+  - FVR_Panel
+  - FVR_Text_FS_Green_500_Bold
+  - FVR_Text_FS_Green_900_Bold
+  - FVR_Text_FS_Orange_500_Bold
+  - FVR_Panel_FS_Grey_300
+  - FVR_Panel_FS_Grey_300_Square_Bottom_Corners_Rounded
+  - FVR_Panel_FS_Grey_700
+  - FVR_Panel_FS_Orange_100
+  - FVR_Panel_FS_Orange_500
+  - FVR_Panel_Deny_FS_Orange_500
+  - FVR_Panel_FS_Red_500
+  - FVR_Panel_FS_Red_500_Alert
+  - FVR_Panel_Cross_FS_Red_500_Borderless
+  - FVR_Panel_Info_Icon_FS_Yellow_500
+  - FVR_Panel_Tick_FS_Green_900_Borderless
+  - FVR_Panel_White_Square_Bottom_Corners_Rounded
+  - FVR_Scrollbar_FS_Grey_700_Transparent_Background
+  - FVR_Text_FS_Red_500_Bold
+  - FVR_Text_FS_Yellow_500_Bold
+  - FVR_Toggle_Multicolour_Lobby_Clickable
+  - FVR_Tile_Multicolour_Lobby_Clickable_Tiles
+  - FVR_Button_FS_Orange_100_Bold
+  - FVR_Button_FS_Red_500
+  - FVR_Button_White_Consistent
+  - FVR_PrimaryButton
+  - FVR_SecondaryButton
+  - FVR_KeyboardButton
+  - FVR_TextButton
+  - FVR_InputFieldButton
+  - FVR_ErrorMessagePanel
+  - FVR_ActivityIndicator
+  - FVR_TransparentBackground
+  - FVR_ModuleSimulationActionIcon
+  - FVR_ModuleSimulationTitleBackground
+  - FVR_IconButton
+  - FVR_Text_Bold
+  - FVR_Text_Medium
+  - FVR_Text_White
+  - FVR_Text_White_Bold
+  - FVR_Text_White_Medium
+  - FVR_ModuleSimulationPip
+  - FVR_TransparentPanel40PercentWhite
+  - FVR_LogoFundamentalSurgery
+  - FVR_ProductLogo
+  - FVR_TealPanel
+  - FVR_ErrorMessageTextRed
+  - FVR_PoweredByLogo
+  - FVR_BlockerPanel
+  - FVR_TextButtonBold
+  - FVR_Star
+  - FVR_IconButtonClose
+  - FVR_Toggle_DarkGrey
+  - FVR_Text_Medium_Italic
+  - FVR_TealPanel_Lock_Disabled
+  m_Palettes:
+  - m_PaletteID: FVR_Button
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312266
+  - m_PaletteID: FVR_Dropdown
+    m_UIElementType: 1
+    m_Palette:
+      rid: 1389783956593312267
+  - m_PaletteID: FVR_InputField
+    m_UIElementType: 2
+    m_Palette:
+      rid: 1389783956593312268
+  - m_PaletteID: FVR_Scrollbar
+    m_UIElementType: 3
+    m_Palette:
+      rid: 1389783956593312269
+  - m_PaletteID: FVR_Slider
+    m_UIElementType: 4
+    m_Palette:
+      rid: 1389783956593312270
+  - m_PaletteID: FVR_Toggle
+    m_UIElementType: 5
+    m_Palette:
+      rid: 1389783956593312271
+  - m_PaletteID: FVR_Text
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312272
+  - m_PaletteID: FVR_Panel
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312273
+  - m_PaletteID: FVR_Text_FS_Green_500_Bold
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312274
+  - m_PaletteID: FVR_Text_FS_Green_900_Bold
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312275
+  - m_PaletteID: FVR_Text_FS_Orange_500_Bold
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312276
+  - m_PaletteID: FVR_Panel_FS_Grey_300
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312277
+  - m_PaletteID: FVR_Panel_FS_Grey_300_Square_Bottom_Corners_Rounded
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312278
+  - m_PaletteID: FVR_Panel_FS_Grey_700
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312279
+  - m_PaletteID: FVR_Panel_FS_Orange_100
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312280
+  - m_PaletteID: FVR_Panel_FS_Orange_500
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312281
+  - m_PaletteID: FVR_Panel_Deny_FS_Orange_500
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312282
+  - m_PaletteID: FVR_Panel_FS_Red_500
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312283
+  - m_PaletteID: FVR_Panel_FS_Red_500_Alert
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312284
+  - m_PaletteID: FVR_Panel_Cross_FS_Red_500_Borderless
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312285
+  - m_PaletteID: FVR_Panel_Info_Icon_FS_Yellow_500
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312286
+  - m_PaletteID: FVR_Panel_Tick_FS_Green_900_Borderless
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312287
+  - m_PaletteID: FVR_Panel_White_Square_Bottom_Corners_Rounded
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312288
+  - m_PaletteID: FVR_Scrollbar_FS_Grey_700_Transparent_Background
+    m_UIElementType: 3
+    m_Palette:
+      rid: 1389783956593312289
+  - m_PaletteID: FVR_Text_FS_Red_500_Bold
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312290
+  - m_PaletteID: FVR_Text_FS_Yellow_500_Bold
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312291
+  - m_PaletteID: FVR_Toggle_Multicolour_Lobby_Clickable
+    m_UIElementType: 5
+    m_Palette:
+      rid: 1389783956593312292
+  - m_PaletteID: FVR_Tile_Multicolour_Lobby_Clickable_Tiles
+    m_UIElementType: 8
+    m_Palette:
+      rid: 1389783956593312293
+  - m_PaletteID: FVR_Button_FS_Orange_100_Bold
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312294
+  - m_PaletteID: FVR_Button_FS_Red_500
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312295
+  - m_PaletteID: FVR_Button_White_Consistent
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312296
+  - m_PaletteID: FVR_PrimaryButton
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312297
+  - m_PaletteID: FVR_SecondaryButton
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312298
+  - m_PaletteID: FVR_KeyboardButton
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312299
+  - m_PaletteID: FVR_TextButton
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312300
+  - m_PaletteID: FVR_InputFieldButton
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312301
+  - m_PaletteID: FVR_ErrorMessagePanel
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312302
+  - m_PaletteID: FVR_ActivityIndicator
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312303
+  - m_PaletteID: FVR_TransparentBackground
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312304
+  - m_PaletteID: FVR_ModuleSimulationActionIcon
+    m_UIElementType: 5
+    m_Palette:
+      rid: 1389783956593312305
+  - m_PaletteID: FVR_ModuleSimulationTitleBackground
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312306
+  - m_PaletteID: FVR_IconButton
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312307
+  - m_PaletteID: FVR_Text_Bold
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312308
+  - m_PaletteID: FVR_Text_Medium
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312309
+  - m_PaletteID: FVR_Text_White
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312310
+  - m_PaletteID: FVR_Text_White_Bold
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312311
+  - m_PaletteID: FVR_Text_White_Medium
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312312
+  - m_PaletteID: FVR_ModuleSimulationPip
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312313
+  - m_PaletteID: FVR_TransparentPanel40PercentWhite
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312314
+  - m_PaletteID: FVR_LogoFundamentalSurgery
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312315
+  - m_PaletteID: FVR_ProductLogo
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312316
+  - m_PaletteID: FVR_TealPanel
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312317
+  - m_PaletteID: FVR_ErrorMessageTextRed
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312318
+  - m_PaletteID: FVR_PoweredByLogo
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312319
+  - m_PaletteID: FVR_BlockerPanel
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312320
+  - m_PaletteID: FVR_TextButtonBold
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312321
+  - m_PaletteID: FVR_Star
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312322
+  - m_PaletteID: FVR_IconButtonClose
+    m_UIElementType: 0
+    m_Palette:
+      rid: 1389783956593312323
+  - m_PaletteID: FVR_Toggle_DarkGrey
+    m_UIElementType: 5
+    m_Palette:
+      rid: 1389783956593312324
+  - m_PaletteID: FVR_Text_Medium_Italic
+    m_UIElementType: 6
+    m_Palette:
+      rid: 1389783956593312325
+  - m_PaletteID: FVR_TealPanel_Lock_Disabled
+    m_UIElementType: 7
+    m_Palette:
+      rid: 1389783956593312326
+  references:
+    version: 2
+    RefIds:
+    - rid: 1389783956593312266
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 0}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312267
+      type: {class: FvrDropdownPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_ArrowSprite: {fileID: 0}
+        m_CheckmarkSprite: {fileID: 0}
+        m_LabelTextColour:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_ItemTextColourBlock:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_ArrowColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_CheckmarkColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312268
+      type: {class: FvrInputFieldPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundSprite: {fileID: 0}
+        m_TextColour:
+          m_NormalColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_HighlightedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_PressedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_SelectedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_DisabledColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_PlaceholderTextColour:
+          m_NormalColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_HighlightedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_PressedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_SelectedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_DisabledColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+          m_HighlightedColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+          m_PressedColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+          m_SelectedColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+          m_DisabledColor: {r: 0.9019608, g: 0.9019608, b: 0.9019608, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312269
+      type: {class: FvrScrollbarPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_BackgroundSprite: {fileID: 0}
+        m_HandleSprite: {fileID: 0}
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_HandleColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312270
+      type: {class: FvrSliderPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_HandleSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 0}
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_HandleColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312271
+      type: {class: FvrTogglePalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_Font: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundSprite: {fileID: 0}
+        m_CheckmarkSprite: {fileID: 0}
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_AdditionalTextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.6}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        m_CheckmarkColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312272
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312273
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312274
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.74509805, g: 0.9019608, b: 0.7058824, a: 1}
+          m_HighlightedColor: {r: 0.74509805, g: 0.9019608, b: 0.7058824, a: 1}
+          m_PressedColor: {r: 0.74509805, g: 0.9019608, b: 0.7058824, a: 1}
+          m_SelectedColor: {r: 0.74509805, g: 0.9019608, b: 0.7058824, a: 1}
+          m_DisabledColor: {r: 0.74509805, g: 0.9019608, b: 0.7058824, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312275
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 1}
+          m_HighlightedColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 1}
+          m_PressedColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 1}
+          m_SelectedColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 1}
+          m_DisabledColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312276
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 1}
+          m_HighlightedColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 1}
+          m_PressedColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 1}
+          m_SelectedColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 1}
+          m_DisabledColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312277
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_HighlightedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_PressedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_SelectedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_DisabledColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_HighlightedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_PressedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_SelectedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_DisabledColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312278
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 45e72c98c7612c14e8ef56534ae9ac92,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_HighlightedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_PressedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_SelectedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_DisabledColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_HighlightedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_PressedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_SelectedColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 1}
+          m_DisabledColor: {r: 0.92941177, g: 0.92941177, b: 0.92941177, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312279
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_HighlightedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_PressedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_SelectedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_DisabledColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_HighlightedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_PressedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_SelectedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_DisabledColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312280
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 1}
+          m_HighlightedColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 1}
+          m_PressedColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 1}
+          m_SelectedColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 1}
+          m_DisabledColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312281
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 0}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.5019608}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.5019608}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.5019608}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.5019608}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312282
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 0c0ee4f5ec7d8e347a48582c6f1b1374,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 1}
+          m_HighlightedColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 1}
+          m_PressedColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 1}
+          m_SelectedColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 1}
+          m_DisabledColor: {r: 1, g: 0.56078434, b: 0.21176471, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312283
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_HighlightedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_PressedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_SelectedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_DisabledColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312284
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_BackgroundSprite: {fileID: 21300000, guid: 897ba0b86bada9143b2cdd070cee4df4,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_HighlightedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_PressedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_SelectedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_DisabledColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312285
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: cf7639e820aa81e41a23fe769368ffc2,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_HighlightedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_PressedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_SelectedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_DisabledColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312286
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 21300000, guid: be697c59308618b41ad4cb4d51536e0e,
+          type: 3}
+        m_BackgroundSprite: {fileID: 21300000, guid: 530964cd01d9b364dbdc98358534e7ee,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 1}
+          m_HighlightedColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 1}
+          m_PressedColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 1}
+          m_SelectedColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 1}
+          m_DisabledColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312287
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 469e3422a866d944dbe6bbd644644468,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 1}
+          m_HighlightedColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 1}
+          m_PressedColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 1}
+          m_SelectedColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 1}
+          m_DisabledColor: {r: 0.40784314, g: 0.69411767, b: 0.33333334, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312288
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 45e72c98c7612c14e8ef56534ae9ac92,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312289
+      type: {class: FvrScrollbarPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_BackgroundSprite: {fileID: 0}
+        m_HandleSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_HandleColourBlock:
+          m_NormalColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_HighlightedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_PressedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_SelectedColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_DisabledColor: {r: 0.63529414, g: 0.627451, b: 0.627451, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312290
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_HighlightedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_PressedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_SelectedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_DisabledColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312291
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 1}
+          m_HighlightedColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 1}
+          m_PressedColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 1}
+          m_SelectedColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 1}
+          m_DisabledColor: {r: 1, g: 0.9411765, b: 0.4745098, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312292
+      type: {class: FvrTogglePalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_Font: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_CheckmarkSprite: {fileID: 0}
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.7529412, g: 0.8666667, b: 0.7019608, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_DisabledColor: {r: 0.7529412, g: 0.8666667, b: 0.7019608, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_AdditionalTextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        m_CheckmarkColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312293
+      type: {class: FvrTilePalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_TitleFontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3,
+          type: 2}
+        m_NormalTitleFontStyles: 0
+        m_HighlightedTitleFontStyles: 0
+        m_PressedTitleFontStyles: 0
+        m_SelectedTitleFontStyles: 0
+        m_DisabledTitleFontStyles: 0
+        m_DescriptionFontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d,
+          type: 2}
+        m_NormalDescriptionFontStyles: 0
+        m_HighlightedDescriptionFontStyles: 0
+        m_PressedDescriptionFontStyles: 0
+        m_SelectedDescriptionFontStyles: 0
+        m_DisabledDescriptionFontStyles: 0
+        m_BackgroundTileSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineTileSprite: {fileID: 0}
+        m_IconTileSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TitleTextColourBlock:
+          m_NormalColor: {r: 0.7529412, g: 0.8666667, b: 0.7019608, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_DisabledColor: {r: 0.7529412, g: 0.8666667, b: 0.7019608, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_DescriptionTextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312294
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 1}
+          m_HighlightedColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 1}
+          m_PressedColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 1}
+          m_SelectedColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 1}
+          m_DisabledColor: {r: 1, g: 0.73333335, b: 0.52156866, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312295
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_HighlightedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_PressedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_SelectedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_DisabledColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312296
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312297
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 21300000, guid: be697c59308618b41ad4cb4d51536e0e,
+          type: 3}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312298
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 21300000, guid: be697c59308618b41ad4cb4d51536e0e,
+          type: 3}
+        m_OutlineButtonSprite: {fileID: 21300000, guid: 4a360a85de59f6045b06bbd085bf3811,
+          type: 3}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312299
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 4fe36b7e415d7f64581d75bbf0bf36ce, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 0}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.2}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 0.20000002, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.20000002, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.20392157}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 0.20000002, g: 0.2509804, b: 0.28627452, a: 1}
+          m_PressedColor: {r: 0.20000002, g: 0.2509804, b: 0.28627452, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.2}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312300
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 0}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.3529412, g: 0, b: 0.39215687, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.3529412, g: 0, b: 0.3921569, a: 1}
+          m_DisabledColor: {r: 0.3529412, g: 0, b: 0.3921569, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312301
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 0}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_HighlightedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_PressedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_SelectedColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_DisabledColor: {r: 0.34117648, g: 0.34117648, b: 0.3372549, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312302
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 0}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_HighlightedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_PressedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_SelectedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_DisabledColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_HighlightedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_PressedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_SelectedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_DisabledColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312303
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 21300000, guid: 20e8d2c3c74a9c747ad8654d9d22ef56,
+          type: 3}
+        m_BackgroundSprite: {fileID: 21300000, guid: 6118f272ae7f6c443a7324737fd3f9cd,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_PressedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_HighlightedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_PressedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312304
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.5019608}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.5019608}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312305
+      type: {class: FvrTogglePalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_Font: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundSprite: {fileID: 0}
+        m_CheckmarkSprite: {fileID: 0}
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.02745098, g: 0.72156864, b: 0.69411767, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_AdditionalTextColourBlock:
+          m_NormalColor: {r: 0, g: 0, b: 0, a: 0}
+          m_HighlightedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_PressedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_SelectedColor: {r: 0, g: 0, b: 0, a: 0}
+          m_DisabledColor: {r: 0, g: 0, b: 0, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        m_CheckmarkColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.02745098, g: 0.72156864, b: 0.69411767, a: 1}
+          m_SelectedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312306
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 0}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_HighlightedColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_PressedColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_SelectedColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_DisabledColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312307
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 0}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 0.7843137, g: 0.7843137, b: 0.7843137, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312308
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312309
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 4fe36b7e415d7f64581d75bbf0bf36ce, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312310
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312311
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312312
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 4fe36b7e415d7f64581d75bbf0bf36ce, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312313
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 0}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_HighlightedColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_PressedColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_SelectedColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_DisabledColor: {r: 0.19215688, g: 0.24705884, b: 0.28235295, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312314
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 0}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0.4}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312315
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 7354d363adfb85c43a3541bed88f6b0a,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312316
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 7354d363adfb85c43a3541bed88f6b0a,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312317
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 0}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_PressedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_PressedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312318
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3ab121c4742d97749ae448f04e507d8d, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_HighlightedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_PressedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_SelectedColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_DisabledColor: {r: 0.9411765, g: 0, b: 0.27058825, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312319
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_BackgroundSprite: {fileID: 21300000, guid: 30e3059d876084c44a4d3f08226fd423,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312320
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 039704f9c95c1b944a5b1744e41cc9e2,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 0.6}
+          m_HighlightedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 0.6}
+          m_PressedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 0.6}
+          m_SelectedColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 0.6}
+          m_DisabledColor: {r: 0.2, g: 0.2509804, b: 0.28627452, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312321
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 3d1bb6e6961840c4db1ecdf1b8ef35c3, type: 2}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 0}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 0}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.3529412, g: 0, b: 0.39215687, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.3529412, g: 0, b: 0.3921569, a: 1}
+          m_DisabledColor: {r: 0.3529412, g: 0, b: 0.3921569, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312322
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 3dfb322befea2ef4681a996c33a60863,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312323
+      type: {class: FvrButtonPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundButtonSprite: {fileID: 0}
+        m_OutlineButtonSprite: {fileID: 0}
+        m_IconButtonSprite: {fileID: 21300000, guid: cf7639e820aa81e41a23fe769368ffc2,
+          type: 3}
+        m_BackgroundImageColourBlock:
+          m_NormalColor: {r: 0.9960785, g: 0.9960785, b: 0.9960785, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineImageColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_IconImageColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 1}
+          m_HighlightedColor: {r: 0, g: 0.58431375, b: 0.60784316, a: 1}
+          m_PressedColor: {r: 0.015686275, g: 0.6666667, b: 0.6784314, a: 1}
+          m_SelectedColor: {r: 0.16470589, g: 0.7725491, b: 0.7490196, a: 1}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312324
+      type: {class: FvrTogglePalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_Font: {fileID: 0}
+        m_NormalFontStyles: 0
+        m_HighlightedFontStyles: 0
+        m_PressedFontStyles: 0
+        m_SelectedFontStyles: 0
+        m_DisabledFontStyles: 0
+        m_BackgroundSprite: {fileID: 0}
+        m_CheckmarkSprite: {fileID: 0}
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_TextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_AdditionalTextColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 0
+          m_FadeDuration: 0
+        m_CheckmarkColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
+          m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_PressedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_SelectedColor: {r: 1, g: 1, b: 1, a: 0}
+          m_DisabledColor: {r: 1, g: 1, b: 1, a: 0}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312325
+      type: {class: FvrTextPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_FontAsset: {fileID: 11400000, guid: 4fe36b7e415d7f64581d75bbf0bf36ce, type: 2}
+        m_NormalFontStyles: 2
+        m_HighlightedFontStyles: 2
+        m_PressedFontStyles: 2
+        m_SelectedFontStyles: 2
+        m_DisabledFontStyles: 2
+        m_TextColourBlock:
+          m_NormalColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_HighlightedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_PressedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_SelectedColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_DisabledColor: {r: 0.2, g: 0.24705882, b: 0.28235295, a: 1}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+    - rid: 1389783956593312326
+      type: {class: FvrPanelPalette, ns: Fvr.SDK.UI, asm: FvrUISDK}
+      data:
+        m_OutlineSprite: {fileID: 0}
+        m_BackgroundSprite: {fileID: 21300000, guid: 762861bf63e194242ac983568303153d,
+          type: 3}
+        m_OutlineColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_HighlightedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_PressedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1
+        m_BackgroundColourBlock:
+          m_NormalColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_HighlightedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_PressedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_SelectedColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_DisabledColor: {r: 0.16470589, g: 0.77254903, b: 0.7490196, a: 0.6}
+          m_ColorMultiplier: 1
+          m_FadeDuration: 0.1

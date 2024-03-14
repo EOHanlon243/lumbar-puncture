@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 654408675, guid: c2265463e4935744a93934b913509444, type: 3}
+  m_Name: FvrApplicationBuildConfigurations
+  m_EditorClassIdentifier: 
+  m_Configurations:
+  - m_Name: Dev Focus
+    m_Development: 1
+    m_AllowDebugging: 0
+    m_ReleaseBuild: 0
+    m_GenerateProcedureDataFile: 1
+    m_GenerateVersionFile: 0
+    m_MarkAsDevBuild: 0
+    m_UseCustomManifest: 0
+    m_KeystoreAlias: 
+    m_FvrBuildTarget: 3
+    m_ExecutableName: SDK_Focus.apk
+    m_BundleIdentifier: 
+    m_AddCurrentDateToName: 1
+    m_AddVersionToName: 1
+    m_AddVersionCodeToName: 0
+    m_DefaultScreenWidth: 1600
+    m_DefaultScreenHeight: 900
+    m_FullScreenMode: 3
+    m_PreBuildProcessors: []
+    m_PostBuildProcessors: []
+  - m_Name: Dev PC
+    m_Development: 1
+    m_AllowDebugging: 0
+    m_ReleaseBuild: 0
+    m_GenerateProcedureDataFile: 1
+    m_GenerateVersionFile: 0
+    m_MarkAsDevBuild: 0
+    m_UseCustomManifest: 0
+    m_KeystoreAlias: 
+    m_FvrBuildTarget: 1
+    m_ExecutableName: FS Procedure.exe
+    m_BundleIdentifier: 
+    m_AddCurrentDateToName: 0
+    m_AddVersionToName: 0
+    m_AddVersionCodeToName: 0
+    m_DefaultScreenWidth: 1920
+    m_DefaultScreenHeight: 1080
+    m_FullScreenMode: 0
+    m_PreBuildProcessors: []
+    m_PostBuildProcessors: []
+  - m_Name: Dev Quest
+    m_Development: 1
+    m_AllowDebugging: 0
+    m_ReleaseBuild: 0
+    m_GenerateProcedureDataFile: 1
+    m_GenerateVersionFile: 0
+    m_MarkAsDevBuild: 0
+    m_UseCustomManifest: 0
+    m_KeystoreAlias: 
+    m_FvrBuildTarget: 2
+    m_ExecutableName: SDK_Quest.apk
+    m_BundleIdentifier: 
+    m_AddCurrentDateToName: 1
+    m_AddVersionToName: 1
+    m_AddVersionCodeToName: 0
+    m_DefaultScreenWidth: 1600
+    m_DefaultScreenHeight: 900
+    m_FullScreenMode: 3
+    m_PreBuildProcessors: []
+    m_PostBuildProcessors: []

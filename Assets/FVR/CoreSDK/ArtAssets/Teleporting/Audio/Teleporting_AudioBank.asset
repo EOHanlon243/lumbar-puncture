@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae330aa64b9d8d444921d8611c2f81e0, type: 3}
+  m_Name: Teleporting_AudioBank
+  m_EditorClassIdentifier: 
+  AudioClipsToAdd: []
+  AddAsSeperateFiles: 0
+  LoopByDefault: 0
+  AudioFiles:
+  - name: Teleport_Lock
+    PlayMode: 0
+    AudioMixerGroup: {fileID: 0}
+    Names:
+    - Teleport_Lock
+    ClipAmount: 1
+    Clips:
+    - {fileID: 8300000, guid: 3b3c465ac6bdd0540a2bcb92ea3c4ae1, type: 3}
+    Volume: 0.3
+    Pitch: 1
+    Loop: 0
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 1
+    MaxPitch: 1
+  - name: Teleport_Release
+    PlayMode: 0
+    AudioMixerGroup: {fileID: 0}
+    Names:
+    - Teleport_Release
+    ClipAmount: 1
+    Clips:
+    - {fileID: 8300000, guid: 906a6cae0ad64a54fb2c5ed9a9febf25, type: 3}
+    Volume: 0.3
+    Pitch: 1
+    Loop: 0
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 1
+    MaxPitch: 1
+  - name: Teleport_Turn
+    PlayMode: 0
+    AudioMixerGroup: {fileID: 0}
+    Names:
+    - Teleport_Turn
+    ClipAmount: 1
+    Clips:
+    - {fileID: 8300000, guid: 28f56e8acfb9c684d92543f008bd01ce, type: 3}
+    Volume: 0.1
+    Pitch: 1
+    Loop: 0
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 1
+    MaxPitch: 1
+  - name: Teleport_Tutorial
+    PlayMode: 0
+    AudioMixerGroup: {fileID: 0}
+    Names:
+    - Teleport_Tutorial
+    ClipAmount: 1
+    Clips:
+    - {fileID: 8300000, guid: fac4f3bc9ea108e4d8b6b4cb6e137566, type: 3}
+    Volume: 0.6
+    Pitch: 1
+    Loop: 0
+    MinVolume: 1
+    MaxVolume: 1
+    MinPitch: 1
+    MaxPitch: 1
