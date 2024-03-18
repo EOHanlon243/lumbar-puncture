@@ -38,6 +38,6 @@ MonoBehaviour:
   m_DeviceName: Touch3ds
   m_HapticArmsDLLName: HapticArmsDeviceLayer.dll
   m_HapticArmsDLLPathEditor: /FVR/AtomSDK/Haptics/Plugins/
-  m_LeftDeviceOffset: {x: -0.185, y: 0.7, z: 0.3}
-  m_RightDeviceOffset: {x: 0.185, y: 0.7, z: 0.3}
+  m_LeftDeviceOffset: {x: -0.185, y: 0.7, z: 0.4}
+  m_RightDeviceOffset: {x: 0.185, y: 0.7, z: 0.4}
   m_FailGracefully: 1

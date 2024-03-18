@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MaterialData:
     PrimaryFriction: 50
-    SecondaryFriction: 0
+    SecondaryFriction: 40
     EdgePID: {x: 0, y: 0, z: 0}
-    PrimaryPID: {x: 0, y: 0, z: 0}
-    SecondaryPID: {x: 0, y: 0, z: 0}
+    PrimaryPID: {x: 0, y: 0, z: 400}
+    SecondaryPID: {x: 0, y: 0, z: 200}
   m_MaterialName: Custom
   m_PIDValues: {x: 0, y: 0, z: 0}
