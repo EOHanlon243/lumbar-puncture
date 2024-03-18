@@ -1172,7 +1172,7 @@ MonoBehaviour:
     m_BooleanValue: 0
     m_IntegerValue: 0
     m_FloatValue: 0
-  - m_Name: 'SkipToEndStateLumbar Puncture Procedure '
+  - m_Name: SkipToEndState
     m_Type: 0
     m_BooleanValue: 0
     m_IntegerValue: 0
@@ -1191,7 +1191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_NextState: {fileID: 765413040}
   m_Conditions:
-  - ParameterName: 'SkipToEndStateLumbar Puncture Procedure '
+  - ParameterName: SkipToEndState
     BooleanValue: 1
     IntegerValue: 0
     FloatValue: 0
