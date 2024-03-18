@@ -226,7 +226,7 @@ namespace Fvr.SDK.Common
 		public const string MOD_01_LUMBAR_00_NAME = "MOD_01_LUMBAR_00_NAME";
 		/// <summary> Identify Anatomical Landmarks </summary>
 		public const string MOD_LUMBAR_STEP_00_NAME = "MOD_LUMBAR_STEP_00_NAME";
-		/// <summary> Identify Atomical Landmarks </summary>
+		/// <summary> Atomical Landmarks </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE";
 		/// <summary> In this step, you would do the following: </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE";
@@ -238,13 +238,11 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_STEP_02 = "MOD_LUMBAR_STEP_02";
 		/// <summary> Removing LP Needle </summary>
 		public const string MOD_LUMBAR_STEP_06_NAME = "MOD_LUMBAR_STEP_06_NAME";
-		/// <summary> Inserting LP Needle </summary>
-		public const string MOD_LUMBAR_STEP_03 = "MOD_LUMBAR_STEP_03";
-		/// <summary> Collect CSF Samples </summary>
-		public const string MOD_LUMBAR_STEP_05 = "MOD_LUMBAR_STEP_05";
 		/// <summary> Measure Opening Pressure </summary>
-		public const string MOD_LUMBAR_STEP_04 = "MOD_LUMBAR_STEP_04";
-		/// <summary> Inject local anaesthesia </summary>
+		public const string MOD_LUMBAR_STEP_04_NAME = "MOD_LUMBAR_STEP_04_NAME";
+		/// <summary> Collect CSF Samples </summary>
+		public const string MOD_LUMBAR_STEP_05_NAME = "MOD_LUMBAR_STEP_05_NAME";
+		/// <summary> Local anaesthesia </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_TITLE";
 		/// <summary> In this step, you would be following theses steps:\n\n- Inject the local anaesthesia. </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTION = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTION";
@@ -254,7 +252,7 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_STEP_01_NAME = "MOD_LUMBAR_STEP_01_NAME";
 		/// <summary> - Inject the local anaesthesia. </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTIONS";
-		/// <summary> Select an LP Needle </summary>
+		/// <summary> LP Needle </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_2_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_2_TITLE";
 		/// <summary> In this step, you would do the following: </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_2_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_2_SUBTITLE";
@@ -268,13 +266,13 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_6_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_6_SUBTITLE";
 		/// <summary> - Select an LP Needle. </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_2_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_2_INSTRUCTIONS";
-		/// <summary> - Insert the LP needle (or if using the atraumatic needle, insert the inducer first, and then the LP needle through it); the bevel of the needle should be oriented upwards if the patient is on their side.\n\n- Advance the needle slowly and stay conscious of the resistance when piercing the supraspinous ligament, then the ligamentum flavum, and finally In most patients, there will be a resistance followed by a sudden ease of insertion (a “give”), which should represent successful insertion into the subarachnoid space. \n\n- Check that you are in the right space regularly by drawing back the stylet to check for CSF. </summary>
+		/// <summary> - Insert the LP needle ; the bevel of the needle should be oriented upwards if the patient is on their side.\n\n- Advance the needle slowly and stay conscious of the resistance when piercing the supraspinous ligament, then the ligamentum flavum, and finally In most patients, there will be a resistance followed by a sudden ease of insertion (a “give”), representing successful insertion into the subarachnoid space. \n\n- Check that you are in the right space regularly by drawing back the stylet to check for CSF. </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_3_INSTRUCTIONS";
-		/// <summary> Inserting the LP Needle </summary>
+		/// <summary> Inserting LP Needle </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_3_TITLE";
 		/// <summary> Measure Opening Pressure </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_4_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_4_TITLE";
-		/// <summary> - Measure the opening pressure.\n\n- Attach to Manometer to the LP needle.\n\n- Keep the tube of the Manometer at the same level of the needle 5.3. Wait for the CSF to stabilise and record the reading. </summary>
+		/// <summary> - Measure the opening pressure.\n\n- Attach to Manometer to the LP needle.\n\n- Keep the tube of the Manometer at the same level of the needle and wait for the CSF to stabilise to record the reading. </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_4_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_4_INSTRUCTIONS";
 		/// <summary> Collecting CSF samples  </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_5_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_5_TITLE";
@@ -284,6 +282,10 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_6_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_6_INSTRUCTIONS";
 		/// <summary> Removing LP Needle </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_6_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_6_TITLE";
+		/// <summary> Inserting LP Needle </summary>
+		public const string MOD_LUMBAR_STEP_03_NAME = "MOD_LUMBAR_STEP_03_NAME";
+		/// <summary> Select LP Needle </summary>
+		public const string MOD_LUMBAR_STEP_02_NAME = "MOD_LUMBAR_STEP_02_NAME";
 
 	}
 }

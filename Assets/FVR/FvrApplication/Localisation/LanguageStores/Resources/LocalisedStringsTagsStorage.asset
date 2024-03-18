@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 2134801670, guid: 1b994b4a5645b2348a4ae4207d71bd95, type: 3}
   m_Name: LocalisedStringsTagsStorage
   m_EditorClassIdentifier: 
-  m_TagID: []
-  m_TagValue: []
+  m_TagID:
+  - <bullet>
+  - </bullet>
+  - <degree>
+  m_TagValue:
+  - "\u2022<indent=4em>"
+  - </indent>
+  - "\xB0"
