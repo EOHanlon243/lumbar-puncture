@@ -606,7 +606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3749968614738159158, guid: f12088bf25c4bb2469d11c6a35d3181e, type: 3}
       propertyPath: m_CameraYOffset
-      value: 0.65
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3749968614738159158, guid: f12088bf25c4bb2469d11c6a35d3181e, type: 3}
       propertyPath: m_TrackingSpace
@@ -698,7 +698,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5321010734406708553, guid: f12088bf25c4bb2469d11c6a35d3181e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.65
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7209049383262296304, guid: f12088bf25c4bb2469d11c6a35d3181e, type: 3}
       propertyPath: m_ClearFlags
