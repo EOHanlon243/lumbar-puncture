@@ -430,22 +430,30 @@ MonoBehaviour:
   - m_ID: MOD_02_UNIT_01_NAME
     m_Value: Unit 2
   - m_ID: MOD_LUMBAR_DESCRIPTION
-    m_Value: Description Here please
+    m_Value: The surgery is performed to extract cerebral spinal fluid (CSF) to diagnose
+      whether a patient has a certain condition. It is performed under local anaesthetic
+      and the patient could be seated or lying on their side.
   - m_ID: MOD_LUMBAR_NAME
-    m_Value: Lumbar Puncture module.
+    m_Value: Lumbar Puncture Module
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT
-    m_Value: Step 1 image description
+    m_Value: Iliac Crest Line Guide
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS
     m_Value: "- Palpate for the highest points of the iliac crests \u2013 a direct
       line joining these structures is a guide to the fourth lumbar vertebral body
-      (may be higher in obese patients). \\n\\n- Palpate distally for the spinous
-      processes of L3, L4 and L5 and the interspaces in between. \\n\\n- Mark the
-      target LP puncture site and then the spinal needle can be inserted safely into
-      the subarachnoid space at L3-4 or L4-5 interspaces. "
+      (may be higher in obese patients). "
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE
     m_Value: 'In this step, you would do the following:'
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE
     m_Value: Atomical Landmarks
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0B_FIRST_IMAGE_TEXT
+    m_Value: Palpate for the Spinous Processes
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0B_INSTRUCTIONS
+    m_Value: '- Palpate distally for the spinous processes of L3, L4 and L5 and the
+      interspaces in between. '
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0C_FIRST_IMAGE_TEXT
+    m_Value: LP Puncture Site Guide
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0C_INSTRUCTIONS
+    m_Value: '- Mark the target LP puncture site.'
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTION
     m_Value: In this step, you would be following theses steps:\n\n- Inject the local
       anaesthesia.
@@ -494,7 +502,7 @@ MonoBehaviour:
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_6_TITLE
     m_Value: Removing LP Needle
   - m_ID: MOD_LUMBAR_SPECIALITY
-    m_Value: Module LUMBAR Speciality
+    m_Value: Lumbar Puncture
   - m_ID: MOD_LUMBAR_STEP_00_NAME
     m_Value: Identify Anatomical Landmarks
   - m_ID: MOD_LUMBAR_STEP_01_NAME
@@ -512,7 +520,8 @@ MonoBehaviour:
   - m_ID: MOD_LUMBAR_STEP_06_NAME
     m_Value: Removing LP Needle
   - m_ID: MOD_LUMBAR_SUMMARY
-    m_Value: Example lumbar puncture module
+    m_Value: Diagnostic procedure for meningitis, subarachnoid haemorrhage, and certain
+      neurological disorders.
   - m_ID: MOD_LUMBAR_UNIT_00_NAME
     m_Value: Lumbar Puncture Procedure
   - m_ID: MODULE_LIST

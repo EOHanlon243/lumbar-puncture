@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 856889909, guid: 356bd2145580d2f4f917c760a53e9e8d, type: 3}
-  m_Name: PageInfoGeneric 0
+  m_Name: PageInfoGeneric 0B
   m_EditorClassIdentifier: 
   m_TitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE
   m_DisplayTitle: 1
   m_SubtitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE
-  m_InstructionsID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS
-  m_FirstImageSprite: {fileID: 21300000, guid: 89d7afad37c88ce4eaa0063f0c893441, type: 3}
-  m_FirstImageSubtitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT
+  m_InstructionsID: MOD_LUMBAR_PAGE_INFO_GENERIC_0B_INSTRUCTIONS
+  m_FirstImageSprite: {fileID: 21300000, guid: e0f7b6c7dcdcd75488ce1c5b604ea919, type: 3}
+  m_FirstImageSubtitleID: MOD_LUMBAR_PAGE_INFO_GENERIC_0B_FIRST_IMAGE_TEXT
   m_SecondImageSprite: {fileID: 0}
   m_SecondImageSubtitleID: 
