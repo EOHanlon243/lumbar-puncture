@@ -2235,6 +2235,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_HapticVisualPlane_Angled
       objectReference: {fileID: 0}
+    - target: {fileID: 808674030012071544, guid: 993fca92a7f6ca949b36b29f33b4bedd, type: 3}
+      propertyPath: m_AtomMaterial
+      value: 
+      objectReference: {fileID: 11400000, guid: 0c70e0cea4a92ff47bdb291bf8bce37f, type: 2}
     - target: {fileID: 808674030160223117, guid: 993fca92a7f6ca949b36b29f33b4bedd, type: 3}
       propertyPath: m_IsActive
       value: 0
