@@ -212,13 +212,13 @@ namespace Fvr.SDK.Common
 		public const string MOD_02_PAGE_INFO_GENERIC_8_SUBTITLE = "MOD_02_PAGE_INFO_GENERIC_8_SUBTITLE";
 		/// <summary> The ninth step is an example of a non assessed animation step.\n\nOnce the animation has finished playing, the user is instructed to press the <b>NEXT</b> button to advance to the next step.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </summary>
 		public const string MOD_02_PAGE_INFO_GENERIC_8_INSTRUCTIONS = "MOD_02_PAGE_INFO_GENERIC_8_INSTRUCTIONS";
-		/// <summary> Description Here please </summary>
+		/// <summary> The surgery is performed to extract cerebral spinal fluid (CSF) to diagnose whether a patient has a certain condition. It is performed under local anaesthetic and the patient could be seated or lying on their side. </summary>
 		public const string MOD_LUMBAR_DESCRIPTION = "MOD_LUMBAR_DESCRIPTION";
-		/// <summary> Lumbar Puncture module. </summary>
+		/// <summary> Lumbar Puncture Module </summary>
 		public const string MOD_LUMBAR_NAME = "MOD_LUMBAR_NAME";
 		/// <summary> Module LUMBAR Speciality </summary>
 		public const string MOD_LUMBAR_SPECIALITY = "MOD_LUMBAR_SPECIALITY";
-		/// <summary> Example lumbar puncture module </summary>
+		/// <summary> Diagnostic procedure for meningitis, subarachnoid haemorrhage, and certain neurological disorders. </summary>
 		public const string MOD_LUMBAR_SUMMARY = "MOD_LUMBAR_SUMMARY";
 		/// <summary> Lumbar Puncture Procedure </summary>
 		public const string MOD_LUMBAR_UNIT_00_NAME = "MOD_LUMBAR_UNIT_00_NAME";
@@ -230,9 +230,9 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE";
 		/// <summary> In this step, you would do the following: </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE";
-		/// <summary> - Palpate for the highest points of the iliac crests – a direct line joining these structures is a guide to the fourth lumbar vertebral body (may be higher in obese patients). \n\n- Palpate distally for the spinous processes of L3, L4 and L5 and the interspaces in between. \n\n- Mark the target LP puncture site and then the spinal needle can be inserted safely into the subarachnoid space at L3-4 or L4-5 interspaces.  </summary>
+		/// <summary> - Palpate for the highest points of the iliac crests – a direct line joining these structures is a guide to the fourth lumbar vertebral body (may be higher in obese patients).  </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS";
-		/// <summary> Step 1 image description </summary>
+		/// <summary> Direct Line Guide </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT";
 		/// <summary> LP Needle </summary>
 		public const string MOD_LUMBAR_STEP_02 = "MOD_LUMBAR_STEP_02";
@@ -250,7 +250,7 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_SUBTITLE";
 		/// <summary> Inject Local Anaesthesia </summary>
 		public const string MOD_LUMBAR_STEP_01_NAME = "MOD_LUMBAR_STEP_01_NAME";
-		/// <summary> - Inject the local anaesthesia. </summary>
+		/// <summary> - Inject the local anaesthesia.\n\n- Insert the spinal needle into the subarachnoid space at L3-4 or L4-5 interspaces.  </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_1_INSTRUCTIONS";
 		/// <summary> LP Needle </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_2_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_2_TITLE";
@@ -286,6 +286,14 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_STEP_03_NAME = "MOD_LUMBAR_STEP_03_NAME";
 		/// <summary> Select LP Needle </summary>
 		public const string MOD_LUMBAR_STEP_02_NAME = "MOD_LUMBAR_STEP_02_NAME";
+		/// <summary> Palpate for the spinous processes. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0B_FIRST_IMAGE_TEXT = "MOD_LUMBAR_PAGE_INFO_GENERIC_0B_FIRST_IMAGE_TEXT";
+		/// <summary> - Palpate distally for the spinous processes of L3, L4 and L5 and the interspaces in between. \n </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0B_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0B_INSTRUCTIONS";
+		/// <summary> - Mark the target LP puncture site.\n </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0C_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0C_INSTRUCTIONS";
+		/// <summary> Puncture Site Guide </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0C_FIRST_IMAGE_TEXT = "MOD_LUMBAR_PAGE_INFO_GENERIC_0C_FIRST_IMAGE_TEXT";
 
 	}
 }
