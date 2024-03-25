@@ -435,16 +435,16 @@ MonoBehaviour:
       and the patient could be seated or lying on their side.
   - m_ID: MOD_LUMBAR_NAME
     m_Value: Lumbar Puncture Module
-  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT
-    m_Value: Iliac Crest Line Guide
-  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS
-    m_Value: "- Palpate for the highest points of the iliac crests \u2013 a direct
-      line joining these structures is a guide to the fourth lumbar vertebral body
-      (may be higher in obese patients). "
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE
     m_Value: 'In this step, you would do the following:'
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE
     m_Value: Atomical Landmarks
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0A_FIRST_IMAGE_TEXT
+    m_Value: Iliac Crest Line Guide
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0A_INSTRUCTIONS
+    m_Value: '- Palpate for the highest points of the iliac crests; a direct line
+      joining these structures is a guide to the fourth lumbar vertebral body (may
+      be higher in obese patients). '
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0B_FIRST_IMAGE_TEXT
     m_Value: Palpate for the Spinous Processes
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_0B_INSTRUCTIONS
@@ -469,18 +469,22 @@ MonoBehaviour:
     m_Value: 'In this step, you would do the following:'
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_2_TITLE
     m_Value: LP Needle
-  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3_INSTRUCTIONS
-    m_Value: "- Insert the LP needle ; the bevel of the needle should be oriented
-      upwards if the patient is on their side.\\n\\n- Advance the needle slowly and
-      stay conscious of the resistance when piercing the supraspinous ligament, then
-      the ligamentum flavum, and finally In most patients, there will be a resistance
-      followed by a sudden ease of insertion (a \u201Cgive\u201D), representing successful
-      insertion into the subarachnoid space. \\n\\n- Check that you are in the right
-      space regularly by drawing back the stylet to check for CSF."
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3_SUBTITLE
     m_Value: 'In this step, you would do the following:'
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3_TITLE
     m_Value: Inserting LP Needle
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3A_INSTRUCTIONS
+    m_Value: '- Insert the LP needle ; the bevel of the needle should be oriented
+      upwards if the patient is on their side.'
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3B_INSTRUCTIONS
+    m_Value: "- Advance the needle slowly and stay conscious of the resistance when
+      piercing the supraspinous ligament, then the ligamentum flavum, and finally
+      In most patients, there will be a resistance followed by a sudden ease of insertion
+      (a \u201Cgive\u201D), representing successful insertion into the subarachnoid
+      space. "
+  - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_3C_INSTRUCTIONS
+    m_Value: '- Check that you are in the right space regularly by drawing back the
+      stylet to check for CSF.'
   - m_ID: MOD_LUMBAR_PAGE_INFO_GENERIC_4_INSTRUCTIONS
     m_Value: '- Measure the opening pressure.\n\n- Attach to Manometer to the LP
       needle.\n\n- Keep the tube of the Manometer at the same level of the needle

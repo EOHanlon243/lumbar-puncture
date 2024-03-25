@@ -230,10 +230,8 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_TITLE";
 		/// <summary> In this step, you would do the following: </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_SUBTITLE";
-		/// <summary> - Palpate for the highest points of the iliac crests – a direct line joining these structures is a guide to the fourth lumbar vertebral body (may be higher in obese patients).  </summary>
-		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_INSTRUCTIONS";
 		/// <summary> Iliac Crest Line Guide </summary>
-		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT = "MOD_LUMBAR_PAGE_INFO_GENERIC_0_FIRST_IMAGE_TEXT";
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0A_FIRST_IMAGE_TEXT = "MOD_LUMBAR_PAGE_INFO_GENERIC_0A_FIRST_IMAGE_TEXT";
 		/// <summary> LP Needle </summary>
 		public const string MOD_LUMBAR_STEP_02 = "MOD_LUMBAR_STEP_02";
 		/// <summary> Removing LP Needle </summary>
@@ -266,8 +264,8 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_6_SUBTITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_6_SUBTITLE";
 		/// <summary> - Select an LP Needle. </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_2_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_2_INSTRUCTIONS";
-		/// <summary> - Insert the LP needle ; the bevel of the needle should be oriented upwards if the patient is on their side.\n\n- Advance the needle slowly and stay conscious of the resistance when piercing the supraspinous ligament, then the ligamentum flavum, and finally In most patients, there will be a resistance followed by a sudden ease of insertion (a “give”), representing successful insertion into the subarachnoid space. \n\n- Check that you are in the right space regularly by drawing back the stylet to check for CSF. </summary>
-		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_3_INSTRUCTIONS";
+		/// <summary> - Palpate for the highest points of the iliac crests; a direct line joining these structures is a guide to the fourth lumbar vertebral body (may be higher in obese patients).  </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0A_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0A_INSTRUCTIONS";
 		/// <summary> Inserting LP Needle </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3_TITLE = "MOD_LUMBAR_PAGE_INFO_GENERIC_3_TITLE";
 		/// <summary> Measure Opening Pressure </summary>
@@ -294,6 +292,12 @@ namespace Fvr.SDK.Common
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0B_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0B_INSTRUCTIONS";
 		/// <summary> - Mark the target LP puncture site. </summary>
 		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_0C_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_0C_INSTRUCTIONS";
+		/// <summary> - Advance the needle slowly and stay conscious of the resistance when piercing the supraspinous ligament, then the ligamentum flavum, and finally In most patients, there will be a resistance followed by a sudden ease of insertion (a “give”), representing successful insertion into the subarachnoid space.  </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3B_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_3B_INSTRUCTIONS";
+		/// <summary> - Check that you are in the right space regularly by drawing back the stylet to check for CSF. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3C_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_3C_INSTRUCTIONS";
+		/// <summary> - Insert the LP needle ; the bevel of the needle should be oriented upwards if the patient is on their side. </summary>
+		public const string MOD_LUMBAR_PAGE_INFO_GENERIC_3A_INSTRUCTIONS = "MOD_LUMBAR_PAGE_INFO_GENERIC_3A_INSTRUCTIONS";
 
 	}
 }
