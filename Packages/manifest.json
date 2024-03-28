@@ -3,6 +3,8 @@
     "com.htc.upm.wave.openxr": "https://github.com/ViveSoftware/VIVE-OpenXR-AIO.git?path=com.htc.upm.wave.openxr#versions/1.0.5",
     "com.htc.upm.wave.openxr.toolkit": "https://github.com/ViveSoftware/VIVE-OpenXR-AIO.git?path=com.htc.upm.wave.openxr.toolkit#versions/1.0.5",
     "com.htc.upm.wave.openxr.toolkit.samples": "https://github.com/ViveSoftware/VIVE-OpenXR-AIO.git?path=com.htc.upm.wave.openxr.toolkit.samples#versions/1.0.5",
+    "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.8.1.tgz",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.0.4",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.21",
@@ -47,7 +49,6 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.8.1.tgz"
+    "com.unity.modules.xr": "1.0.0"
   }
 }
