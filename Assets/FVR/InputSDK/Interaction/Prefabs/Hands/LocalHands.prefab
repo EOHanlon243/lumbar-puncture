@@ -218,7 +218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7357736996559829322, guid: 248ed9c9c8a5e014584641c19a465e03, type: 3}
       propertyPath: m_DeviceStreamsRequirements.Array.data[0]
-      value: 271592276
+      value: 271592266
       objectReference: {fileID: 0}
     - target: {fileID: 7897565465308558565, guid: 248ed9c9c8a5e014584641c19a465e03, type: 3}
       propertyPath: m_ThisHand
